@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://distantreading.github.io/Schema/eltec-0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!DOCTYPE TEI SYSTEM "file:/home/joanna/Downloads/HU00666_1.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns"
     xml:id="HU00666" xml:lang="hu">
     <teiHeader>
@@ -65,30 +64,33 @@
         <body>
             <div type="chapter" xml:id="div1">
                 <head>1</head>
-                <p xml:id="p1">
-                    <s xml:id="s1">
-                        <w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w1">A</w>
-                        <w lemma="Radnóthy" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w2">Radnóthy</w>
-                        <w lemma="Elek" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w3">Elek</w>
-                        <w lemma="udvarház" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w4">udvarháza</w>
-                        <w lemma="híres" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w5">híres</w>
-                        <w lemma="van" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w6">volt</w
-                        <w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w7">a</w>
-                        <w lemma="Kisküküllő" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w8">Kisküküllő</w>
-                        <w lemma="mentén" msd="_" pos="ADP" xml:id="w9">mentén</w>
-                        <pc join="left" pos="PUNCT" xml:id="pc1">.</pc>
-                    </s>
-                    <s xml:id="s2">
-                        <w lemma="tulajdon" msd="Case=Ess|Number=Sing" pos="NOUN" xml:id="w10">Tulajdonképp</w>
-                        <w lemma="nem" msd="PronType=Neg" pos="ADV" xml:id="w11">nem</w>
-                        <w lemma="is" msd="_" pos="ADV" xml:id="w12">is</w>
-                        <w lemma="van" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w13">volt</w>
-                        <w lemma="udvarház" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w14">udvarház</w>
-                        <pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
-                        <w lemma="ahogy" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" xml:id="w15">ahogy</w>
-                        <w lemma="Erdély" msd="Case=Ine|Number=Sing" pos="PROPN" xml:id="w16">Erdélyben</w>
-                        <w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w17">a</w>
-                        <w lemma="kicsi"
+                <p xml:id="p1"><s xml:id="s1"><w lemma="a" msd="Definite=Def|PronType=Art" pos="DET"
+                            xml:id="w1">A</w><w lemma="Radnóthy" msd="Case=Nom|Number=Sing"
+                            pos="PROPN" xml:id="w2">Radnóthy</w><w lemma="Elek"
+                            msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w3">Elek</w><w
+                            lemma="udvarház"
+                            msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN"
+                            xml:id="w4">udvarháza</w><w lemma="híres"
+                            msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w5">híres</w><w
+                            lemma="van"
+                            msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                            pos="VERB" xml:id="w6">volt</w><w lemma="a"
+                            msd="Definite=Def|PronType=Art" pos="DET" xml:id="w7">a</w><w
+                            lemma="Kisküküllő" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w8"
+                            >Kisküküllő</w><w lemma="mentén" msd="_" pos="ADP" xml:id="w9"
+                            >mentén</w><pc join="left" pos="PUNCT" xml:id="pc1">.</pc></s><s
+                        xml:id="s2"><w lemma="tulajdon" msd="Case=Ess|Number=Sing" pos="NOUN"
+                            xml:id="w10">Tulajdonképp</w><w lemma="nem" msd="PronType=Neg" pos="ADV"
+                            xml:id="w11">nem</w><w lemma="is" msd="_" pos="ADV" xml:id="w12"
+                            >is</w><w lemma="van"
+                            msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                            pos="VERB" xml:id="w13">volt</w><w lemma="udvarház"
+                            msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w14">udvarház</w><pc
+                            join="left" pos="PUNCT" xml:id="pc2">,</pc><w lemma="ahogy"
+                            msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" xml:id="w15"
+                            >ahogy</w><w lemma="Erdély" msd="Case=Ine|Number=Sing" pos="PROPN"
+                            xml:id="w16">Erdélyben</w><w lemma="a" msd="Definite=Def|PronType=Art"
+                            pos="DET" xml:id="w17">a</w><w lemma="kicsi"
                             msd="Case=Nom|Degree=Cmp|Number=Sing" pos="ADJ" xml:id="w18"
                             >kisebb</w><w lemma="birtokú" msd="Case=Nom|Degree=Pos|Number=Sing"
                             pos="ADJ" xml:id="w19">birtokú</w><w lemma="nemes"
