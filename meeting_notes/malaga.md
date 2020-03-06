@@ -28,19 +28,19 @@ Discussions resolved around accuracy:
 * (new) work is being done on Direct Speech identification by mixed group from Antwerp and Kraków using BERT - covered at length in materials from the Wednesday workshop (to be added here soon) - it could be checked if deep learning approaches could also boost efficiency for problematic subtasks in NER.
 
 ### 3. Level 2 Schema
-In relation to earlier talks with WG1 leaders, we divided Level 2 annotation into two sublevels, to ensure quicker delivery of any Level 2 annotation.
-The first list, deliverable almost now includes:
-List 1	tokenization
-List 1	lemmatization, both at token-level and MWU-level
-List 1	parts of speech
-List 1	morphological information (single string, case marking, inflection)
-List 1	sentence segmentation
-List 1	ID attribute (on word and sentence levels)
-
-The second list covers
-List 2	direct speech
-List 2	indication of Named Entities
-Which will require discussion on representation of multiword expressions.
+In relation to earlier talks with WG1 leaders, we divided Level 2 annotation into two sublevels, to ensure quicker delivery of any Level 2 annotation.  
+L2.1  
+(deliverable almost now) includes:
+*	sentence segmentation
+*	tokenization
+* parts of speech
+*	morphological information (single string, case marking, inflection)
+*	lemmatization, both at token-level and MWU-level
+* ID attribute (on word and sentence levels)
+  
+L2.2  
+*	direct speech
+*	indication of Named Entities - which will require discussion on representation of multiword expressions.
 
 Sentiment analysis is a very useful task but it was decided it should be removed from Level 2 due to various problems related to non-existing TEI encoding standards, and unclear application units (word, sentence, paragraph, text?). We should produce sentiment scores for ELTeC texts but these scores will not be part of the main Level 2 encoding schema but available as extra annotations containing sentiment analysis in a separate folder on github.
 
@@ -52,6 +52,7 @@ In the joint meeting with WG1 we discussed Ioana’s and Gabor’s annotation pr
   <pc join="" pos="PUNCT" xml:id="pc1">.</pc>
 </s>
 ```
+With words counted on the document, not sentence level.
 
 e.g.:
 ```
@@ -80,7 +81,11 @@ We also considered the case of shortened forms, like 'des' in French
 <w lemma="le" pos="DET" msd="Definite=Def|Gender=Masc|Number=Plur|PronType=Art">les</w>
 ```
 
-agreeing that they should include both lemmas & POSes in the <w> tag of des, connected by +, e.g. lemma="de+le".
+agreeing that they should include both lemmas & POSes in the <w> tag of des, connected by +, e.g. lemma="de+le", like:
+  
+```
+<w lemma="de+le" pos="ADP+DET" msd="+Definite=Def|Gender=Masc|Number=Plur|PronType=Art">des</w>
+```
 
 Notes shared with WG1:
 https://semestriel.framapad.org/p/9f29-wg1malaga2020
@@ -90,7 +95,7 @@ Spaces should be embedded in a separate join element.
 
 During the meeting we agreed to discuss whether we need one or more tagsets. In the follow-up WG2 meeting we came to the agreement that we'd propose using Universal Dependencies tagset. While we do not exclude possibility of using other taggers than UDPipe, we recommend mapping their tagsets into UD before including the annotated files into ELTeC. Silvie offered to ask UD people for conversion tools should any of us choose to use tools other than UDPipe and encounter problems with mapping to UD - they stay in touch with developers of various tools and should be able to point us to solutions.
 
-We also ask WG1 to consider the possibility of adding an expos tagset - which would facilitate inclusion of language specific tags for morphologically rich languages. To avoid empty attributes, we'd propose using the phrase "non-available" in texts which would not contain expos information.
+We also ask WG1 to consider the possibility of adding an xpos tagset - which would facilitate inclusion of language specific tags for morphologically rich languages. To avoid empty attributes, we'd propose using an additional attribute @xpos next to @pos and @msd, using phrase "non-available" in texts which would not contain xpos information.
 
 So as not to lose grammatical information already obtained, we will place experimental CONLLU and CWBs on our Github for the use of people interested in more advanced linguistic-syntactic analysis.
 
@@ -111,7 +116,7 @@ We identified some possible shared interests / papers
 * Georeferencing Jessie & Diana
 * Professions Stefano & Diana
 * Gender paper  – > Katja and Jan
-* Demo for visualization -> Raquel with Isabel
+* Demo[s] for visualization -> Raquel and Isabel with Hyperbase and Serge + colleagues with TXM
 
 Other ideas for future factors to be examined across ELTeC were:
 * characterization of major / minor characters
@@ -122,7 +127,7 @@ Other ideas for future factors to be examined across ELTeC were:
 * can exploratory tools detect language evolution
 * detecting which influences in the canon become most important  –  library searches for literary handbooks from the time - but could be challenging for non-literary scholars / repeating was already done
 
-We raised the question if the number of reprints includes electronic editions - and should check this with WG 1. Visualizations on the number of reprints could be useful for canonization paper.
+We raised the question if the number of reprints includes electronic editions - and should check this with WG 1. When we discussed about possible demos to do, we spoke about using 'canonization' information available in the ELTeC corpora (not all the texts). After other discussions, it turned out that the information available is in fact (only) related to the 'number of reprints' of a text. Visualizations on the number of reprints could be useful for canonization paper.
 
 To build on the idea of shared projects, we decided that Autumn WG2+WG3 meeting will take a hackathon-like form of working together on specific issues (more below).
 
