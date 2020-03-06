@@ -70,7 +70,7 @@ e.g.:
   </s>
 </p>
 ```
-
+Full examples can be found [here](https://github.com/distantreading/WG2/tree/master/annotation-level2-examples)
 
 We also considered the case of shortened forms, like 'des' in French
 
