@@ -87,13 +87,14 @@ https://semestriel.framapad.org/p/9f29-wg1malaga2020
 
 Spaces should be embedded in a separate join element.
 
-On Wednesday meeting we agreed to annotate direct speech as <said> spans to allow for word counting and possibility of future use of attributes e.g. for distinguishing between thoughts and speech.
 
 During the meeting we agreed to discuss whether we need one or more tagsets. In the follow-up WG2 meeting we came to the agreement that we'd propose using Universal Dependencies tagset. While we do not exclude possibility of using other taggers than UDPipe, we recommend mapping their tagsets into UD before including the annotated files into ELTeC. Silvie offered to ask UD people for conversion tools should any of us choose to use tools other than UDPipe and encounter problems with mapping to UD - they stay in touch with developers of various tools and should be able to point us to solutions.
 
 We also ask WG1 to consider the possibility of adding an expos tagset - which would facilitate inclusion of language specific tags for morphologically rich languages. To avoid empty attributes, we'd propose using the phrase "non-available" in texts which would not contain expos information.
 
 So as not to lose grammatical information already obtained, we will place experimental CONLLU and CWBs on our Github for the use of people interested in more advanced linguistic-syntactic analysis.
+
+On Wednesday meeting we agreed to annotate direct speech as <said> spans to allow for word counting and possibility of future use of attributes e.g. for distinguishing between thoughts and speech.
 
 In case of objections to this schema, we ask for expressing them by 10th March. With no objections, we will propose a formal schema to WG1 to discuss and hopefully accept around half of March, aiming to have design issues with Level 2 annotation resolved by the end of March.
 
