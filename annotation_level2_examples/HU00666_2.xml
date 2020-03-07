@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://distantreading.github.io/Schema/eltec-0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://distantreading.github.io/Schema/eltec-2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns"
     xml:id="HU00666" xml:lang="hu">
     <teiHeader>
@@ -21,24 +21,36 @@
                 <p>Published as part of ELTeC</p>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digitalSource"><title>Egy régi udvarház utolsó gazdája :
-                        Regény</title><date>1998-08-03</date><publisher>Magyar Elektronikus
-                        Könyvtárért Egyesület</publisher><ref
-                        target="http://mek.oszk.hu/00600/00666"/><respStmt>
+                <bibl type="digitalSource">
+                    <title>Egy régi udvarház utolsó gazdája : Regény</title>
+                    <date>1998-08-03</date>
+                    <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+                    <ref target="http://mek.oszk.hu/00600/00666"/>
+                    <respStmt>
                         <resp>Original Electronic Edition</resp>
                         <name>Varjú Mária</name>
                         <name>Szabolcsi József</name>
-                    </respStmt><relatedItem type="source"><bibl type="digitalSource"><title>Egy régi
-                                udvarház utolsó gazdája : Regény</title><date>1998-08-03</date><ref
-                                target="http://kindlevarazs.wordpress.com/kindle-teka/"
-                        /></bibl></relatedItem><relatedItem type="source"><bibl type="printSource"
-                                ><title>Egy régi udvarház utolsó gazdája : regény</title><author>
-                                Gyulai
-                                Pál</author><pubPlace>[Szentendre]</pubPlace><publisher>Interpopulart</publisher><date>1995</date><idno
-                                type="isbn-10">963 613 127 9</idno><idno type="issn"
-                                >1216-8661</idno></bibl></relatedItem></bibl>
-                <bibl type="firstEdition"><title>Egy régi udvarház utolsó gazdája :
-                        Regény</title><author>Gyulai Pál</author><date>1857</date></bibl>
+                    </respStmt>
+                </bibl>
+                <bibl type="firstEdition">
+                    <title>Egy régi udvarház utolsó gazdája : Regény</title>
+                    <author>Gyulai Pál</author>
+                    <date>1857</date>
+                </bibl>
+                <bibl type="digitalSource">
+                    <title>Egy régi udvarház utolsó gazdája : Regény</title>
+                    <date>1998-08-03</date>
+                    <ref target="http://kindlevarazs.wordpress.com/kindle-teka/"/>
+                </bibl>
+                <bibl type="printSource">
+                    <title>Egy régi udvarház utolsó gazdája : regény</title>
+                    <author> Gyulai Pál</author>
+                    <pubPlace>[Szentendre]</pubPlace>
+                    <publisher>Interpopulart</publisher>
+                    <date>1995</date>
+                    <idno type="isbn-10">963 613 127 9</idno>
+                    <idno type="issn">1216-8661</idno>
+                </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc n="eltec-0">
