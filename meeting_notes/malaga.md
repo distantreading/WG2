@@ -71,7 +71,7 @@ e.g.:
   </s>
 </p>
 ```
-Full examples can be found [here](https://github.com/distantreading/WG2/tree/master/annotation-level2-examples)
+Full examples can be found [here](https://github.com/distantreading/WG2/tree/master/annotation_level2_examples)
 
 We also considered the case of shortened forms, like 'des' in French
 
