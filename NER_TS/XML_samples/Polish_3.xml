@@ -1,0 +1,188 @@
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0016">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Kariera Nikodema Dyzmy : ELTeC edition</title>
+<author ref="http://viaf.org/viaf/17325963">Dołęga, Tadeusz-Mostowicz (1898-1939)</author>
+</titleStmt>
+<extent>
+<measure unit="words">85595</measure>
+</extent>
+<publicationStmt>
+<p>Published as part of ELTeC <date>2019-06-09</date></p>
+</publicationStmt>
+<sourceDesc>
+<bibl type="digitalSource">
+<title>Kariera Nikodema Dyzmy</title>
+<ref>http://wolnelektury.pl/katalog/lektura/kariera-nikodema-dyzmy</ref>
+</bibl>
+<bibl type="printSource">
+<title>Kariera Nikodema Dyzmy</title>
+<author>Dołęga, Tadeusz-Mostowicz</author>
+<publisher>Warszawa: Towarzystwo Wydawnicze "Rój"</publisher>
+<date>1932</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc n="eltec-1">
+<p></p>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="pl">Polish</language>
+</langUsage>
+<textDesc>
+<authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+<size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
+<reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+<timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
+</textDesc>
+</profileDesc>
+<revisionDesc>
+<change when="2020-04-07">JR convert to ELTeC-1</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div type="titlepage">
+<p>Tadeusz Dołęga-Mostowicz</p>
+<p>Kariera Nikodema Dyzmy</p>
+</div>
+</front>
+<body>
+<div type="chapter"><head>Rozdział pierwszy</head>
+<p>Była to wykwintna koperta z czerpanego papieru z adresem napisanym ręcznie:</p>
+<quote>
+<p>
+<emph>JW Pan Prezes Artur Rakowiecki w miejscu. Al. Ujazdowskie 7.</emph>
+</p>
+</quote>
+<p>Wewnątrz (koperta była niezaklejona) znajdowała się
+równie wytworna karta, zgięta przez pół. Z jednej strony
+wydrukowano coś po francusku, z drugiej, prawdopodobnie to samo, po polsku:</p>
+<quote>
+<p>
+<emph>Prezes Rady Ministrów ma zaszczyt zaprosić JW Pana
+o łaskawe wzięcie udziału w raucie, który wydaje dn. 15
+lipca rb. o godz. 8 wieczór w dolnych salonach Hotelu
+Europejskiego ku uczczeniu przyjazdu J. E. Kanclerza Republiki Austriackiej.</emph>
+</p>
+</quote>
+<p>U dołu drobnymi literami podano:</p>
+<quote>
+<p>
+<emph>Strój balowy — ordery.</emph>
+</p>
+</quote>
+<p>Przeczytał jeszcze raz adres: <emph>Al. Ujazdowskie 7</emph>.</p>
+<p>Odnieść? A może dadzą złotego lub dwa?… Spróbować
+nie zaszkodzi. Numer 7 to wszak zaledwie kilkadziesiąt
+kroków.</p>
+<p>Na tablicy lokatorów przy nazwisku A. Rakowieckiego
+widniał numer 3 mieszkania, pierwsze piętro. Wszedł na
+schody i zadzwonił, raz, drugi. Nadszedł wreszcie dozorca
+domu i oświadczył, że pan prezes wyjechał za granicę.</p>
+<p>— Pech.</p>
+<p>Wzruszył ramionami i, trzymając list w ręku, począł iść
+ku domowi. Minęło dobre pół godziny, nim dotarł na ulicę
+Łucką. Po skrzypiących drewnianych schodach dobrnął na
+czwarte piętro i nacisnął klamkę.</p>
+<p>Buchnął mu w twarz zaduch ciasnej izby, łączący
+w sobie drażniący aromat przypieczonej cebuli, spalonego
+tłuszczu i woń suszących się pieluszek. Z kąta rozległ się
+głos kobiecy:</p>
+<p>— Niech no pan drzwi zamyka, bo cug i jeszcze mi pan
+dziecko zaziębi.</p>
+<p>Burknął coś pod nosem, zdjął kapelusz, powiesił palto
+na gwoździu i usiadł przy oknie.</p>
+<p>— No i co — odezwała się kobieta — znowu pan miejsca
+nie znalazł?</p>
+<p>— Znowu…</p>
+<p>— Ej, panie Dyzma, po próżnicy pan tu bruki zbija,
+mówiłam panu. Na wsi, na prowincji o chleb łatwiej.
+Wiadomo: chłopi.</p>
+<p>Nic nie odpowiedział. Już trzeci miesiąc był bez pracy,
+odkąd zamknięto bar „Pod Słoniem” na Pańskiej, gdzie
+jeszcze zarabiał swoje pięć złotych dziennie i kolację, grając
+na mandolinie. Prawda, później Urząd Pośrednictwa Pracy dał mu robotę przy budowie węzła kolejowego, lecz
+Dyzma ani z inżynierem, ani z majstrem, ani z robotnikami
+nie mógł dojść do ładu i po dwóch tygodniach wymówiono
+mu. W Łyskowie zaś…</p>
+<p>Myśli kobiety tymi samymi musiały iść torami, gdyż
+zapytała:</p>
+<p>— Panie Dyzma, a nie lepiej by panu wrócić w swoje strony, do rodziny? Zawszeć tamuj coś dla pana znajdą.</p>
+<p>— Przecież mówiłem już pani Walentowej, że rodziny
+żadnej nie mam.</p>
+<p>— Poumierali?</p>
+<p>— Poumierali.</p>
+<p>Walentowa skończyła obieranie kartofli i, stawiając
+sagan na ogniu, zaczęła:</p>
+<p>— Bo tu, w Warszawie, to i ludzie inne, a i pracy brak.
+Mój, niby, to tylko trzy dni w tygodniu robi, ledwie na żarcie
+starczy, a ichny derektur, znaczy się ten Purmanter, czy jak
+tam mu, to powiada, że może i całkiem fabrykę zamkną, bo
+odbytu ni ma. A i tak, żeby nie Mańka, to nie byłoby czym
+komornego opłacić. Zapracowuje się dziewczyna, a i to nic.
+Jak gościa ze dwa razy na tydzień nie złapie…</p>
+<p>— Niech uważa — przerwał Dyzma — bo jak ją złapią,
+że bez książeczki… No!</p>
+<p>Walentowa przewinęła dziecko i rozwiesiła nad płytą
+mokrą pieluszkę.</p><p>— Co pan kracze! — rzuciła opryskliwym głosem.
+— Pilnuj pan siebie. I tak już za trzy tygodnie nie płaci,
+a tylko miejsce zajmuje. Ważny mi sublikator.</p>
+<p>— Zapłacę — bąknął Dyzma.</p>
+<p>— Zapłacisz pan albo nie. A piętnaście złotych to i tak
+pół darmo, ale piechotą nie chodzą. A pan co do jakiej
+roboty się weźmie, to i zara wyleją…</p>
+<p>— Któż to taki pani Walentowej powiedział?</p>
+<p>— O, wa, wielka tajemnica. Toć pan sam Mańce opowiadał.</p>
+<p>Zaległa cisza.</p>
+<p>Dyzma odwrócił się do okna i przyglądał się odrapanym murom podwórza. Istotnie, prześladował go jakiś
+pech. Nigdzie na dłużej miejsca zagrzać nie mógł. Z gimnazjum wydalili go już z czwartej klasy za upór i brak
+pilności. Rejent Winder trzymał go jeszcze najdłużej. Może
+dlatego, że mały Nikodem Dyzma znał język niemiecki
+o tyle, że rozumiał, dokąd go posyłano. Później Urząd
+Poczty i Telegrafu, nędzna pensja i wieczne przyczepki.
+Wojna, trzy lata służby w taborach baonu telegraficznego
+i jedyny awans na frajtra. Znowu poczta w Łyskowie, nim
+nie przyszła redukcja. Przez proboszcza dostał się do
+czytelni, lecz i tu ledwie przezimował, bo już w kwietniu
+okazało się, że nie umie utrzymać półek z książkami
+w należytym porządku.</p>
+<p>Zresztą to było najciekawsze…</p>
+<p>Rozmyślania Dyzmy przerwał ryk syren okolicznych
+fabryk. Walentowa zakrzątnęła się koło stołu, co widząc
+Dyzma leniwie wstał i wyszedł.</p>
+<p>Bezmyślnie błąkał się rozprażonymi w słońcu ulicami,
+choć bolały go nogi. Pozostanie w mieszkaniu, wysłuchiwanie uszczypliwych uwag pana Walentego Barcika i lekceważących docinków Mańki, a zwłaszcza przyglądanie się
+ich jedzeniu, było ponad jego siły. Przecie sam już drugi
+dzień nic nie miał w ustach poza papierosami, na które
+chował ostatnie grosze.</p>
+<p>Przechodząc obok wędliniarni, skąd zalatywał go nęcący zapach kiełbas, wstrzymywał oddech. Starał się odwracać głowę od okien sklepów spożywczych, a jednak głód
+nie dawał o sobie zapomnieć.</p>
+<p>Nikodem Dyzma jasno sobie zdawał sprawę z faktu, że
+żadne pomyślniejsze perspektywy dlań nie istnieją.</p>
+<p>Czy to go przerażało? Bynajmniej. Psychika Nikodema
+Dyzmy pozbawiona była, na szczęście, elementu wyobraźni. Zasięg jego przewidywań i planów nie przekraczał
+granic najbliższych dni i tak jak ubiegły tydzień wegetował
+dzięki sprzedanemu zegarkowi, tak następny mógłby przeżyć spieniężywszy frak i lakierki.</p>
+<p>Wprawdzie nabycie tego stroju kosztowało go wiele
+wyrzeczeń się i ograniczeń, wprawdzie z tym strojem
+wiązał nadzieję na łatwy chleb fordansera i na radykalną
+poprawę swoich opłakanych warunków materialnych
+— teraz jednak, gdy po wielokrotnych zabiegach przekonał
+się, że nikt go na fordansera nie weźmie, bez bólu postanowił rozstać się z tym wspaniałym ubiorem.</p>
+<p>Zbliżała się już szósta, gdy powziął ostateczną decyzję
+i zawrócił ku domowi.</p>
+<p>W mieszkaniu była tylko Mańka, wątła brunetka o nerwowych ruchach. Widocznie miała dziś wyjść na wieczór,
+bo siedziała przy oknie i malowała się. Że zaś siedziała na
+jego walizie, Dyzma, nie chcąc jej przeszkadzać, ulokował
+się w kącie i czekał.</p>
+</div>
+</body>
+</text>
+</TEI>

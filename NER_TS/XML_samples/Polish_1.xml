@@ -1,0 +1,76 @@
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0092">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Przedwiośnie : ELTeC edition</title>
+<author ref="http://viaf.org/viaf/189239633">Żeromski, Stefan (1864-1925)</author>
+</titleStmt>
+<extent>
+<measure unit="words">87994</measure>
+</extent>
+<publicationStmt>
+<p>Published as part of ELTeC <date>2019-06-09</date></p>
+</publicationStmt>
+<sourceDesc>
+<bibl type="digitalSource">
+<title>Przedwiośnie</title>
+<ref>http://wolnelektury.pl/katalog/lektura/przedwiosnie</ref>
+</bibl>
+<bibl type="printSource">
+<title>Przedwiośnie</title>
+<author>Żeromski, Stefan</author>
+<publisher>Warszawa: Mortkowicz</publisher>
+<date>1924</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc n="eltec-1">
+<p></p>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="pl">Polish</language>
+</langUsage>
+<textDesc>
+<authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+<size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
+<reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+<timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
+</textDesc>
+</profileDesc>
+<revisionDesc>
+<change when="2020-04-07">JR convert to ELTeC-1</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div type="titlepage">
+<p>Stefan Żeromski</p>
+<p>Przedwiośnie</p>
+</div>
+</front>
+<body>
+<div type="liminal">
+<quote>
+<p>Panu Konradowi Czarnockiemu</p>
+<p>w przyjaznym upominku ofiarowuje ten utwór</p>
+</quote>
+<p>autor</p>
+</div>
+<div type="chapter"><head>RODOWÓD</head>
+<p>Inną koleją potoczyło się życie mieszkańców miasta Baku, półwyspu i całego kaukaskiego podgórza, gdy w marcu 1918 roku jedna część mieszkańców — tzn. Ormianie pod wodzą Szaumianca — zawezwała cztery pułki ormiańsko-gruzińskie, podpuszczone do cofnięcia się z frontu azjatyckiego przez rozkazy z rewolucyjnego rządu rosyjskiego, a nadto, gdy zdołała przekonać dowódcę wojsk angielskich, ażeby swą artylerią, piechotą i kawalerią w łącznej sumie dwu tysięcy ludzi obsadził centrum rozciągniętej osady bakińskiej. Druga część mieszkańców — to znaczy Tatarzy — na skutek takiego obrotu rzeczy przypadła w przerażeniu do ziemi, mając w pamięci swe przewiny, straszliwą rzeź z roku 1905, której ofiarą padło wówczas ormiańskie pogłowie.</p>
+<p>Obawy i przewidywania nie zawiodły Tatarów. Ormianie spalili meczety wraz z tatarskimi kobietami i dziećmi, które się tam schroniły, i od marca do września byli panami życia i śmierci, a raczej dyspozytorami samej śmierci Tatarów. Tej drugiej części mieszkańców miasta Baku i jego okolic nie pozostało do zrobienia nic innego, jak szukać pomocy na zewnątrz. Nie mogła zaś jej znaleźć gdzie indziej, tylko nad Bosforem, u stóp kalifa, zastępcy proroka i naturalnego mściciela znieważonych i spalonych meczetów. Kalif nakłonił ucha do prośby i dziejów krzywdy jedynowierców tatarskich i turkmeńskich. Znaczna armia turecka pod wodzą Nuri-Paszy w sile pono trzech dywizji ruszyła na zdobycie pogórza, przekroczyła Kurę, tnąc w pień mieszkańców wiosek ormiańskich, a przez górskie potoki ścieląc pod koła armat pomosty z trupów.</p>
+<p>Miasto Baku znalazło się w położeniu fatalnym. Bronione przez artylerię angielską, która silnie i umiejętnie ufortyfikowała się na wzgórzach, i przez pułki ormiańskie, które teraz nic nie miały do stracenia, skoro jeszcze Gruzini pociągnęli do domu, znalazło się pod ogniem artylerii tureckiej. Na mocy układu zawartego przez dowódcę Szaumianca z Anglikami miasto Baku miało wystawić coś w rodzaju wojska czy pospolitego ruszenia w sile co najmniej sześćdziesięciu tysięcy ludzi. Poczęto tedy pędzić do okopów, cokolwiek w mieście i okolicy nosiło spodnie, od niedorosłych młokosów do starców zgrzybiałych. Mimo to nie zdołano wystawić więcej ponad trzydzieści — czterdzieści tysięcy ludzi, nie przygotowanych i nie przydatnych do wojny. Nadto nie zdołano wykarmić tej ormiańskiej armii, złożonej z najrozmaitszych żywiołów krzątających się około nafty bakińskiej. Waliły się od tureckich pocisków nie tylko domy Ormian, bogaczów, przemysłowców, kapitalistów, lecz i kruche domostwa tatarskie. Ulice były zarzucone rumowiskiem. Nikt z mieszkańców nie przebywał nad poziomem, lecz chronił głowę w piwnicy. Czarne miasto naftowe stało się podwójnie czarnym: od dymu i kurzawy wojennej.</p>
+<p>Życie Cezarego Baryki upływało podczas bombardowania Baku w warunkach opłakanych. Po upadku pierwiastkowej rewolucji wypędzony został z izby, którą mu na mieszkanie przeznaczono. Dom, w którym niegdyś mieszkali rodzice, runął właśnie pod pociskami tureckimi. Jednak w piwnicy, która niegdyś zawierała skarb rodzicielski, Cezary znalazł kryjówkę dla siebie i kilku współtowarzyszów. Przeżywał czasy głodu. Chadzał półnagi, brudny, obrośnięty kłakami, nie wiedząc dnia ani godziny, kiedy go niewiadomy pocisk porazi. Od świtu do nocy tudzież w nocy czyhał na sposobność zdobycia jakiego takiego pożywienia, sposobem niewiele mającym wspólnego z prawem normalnego kupna albo uspołecznioną wymianą jakichkolwiek walorów.</p>
+<p>Patrzył na rzeczy fenomenalne, gdyż Tatarzy i Ormianie nie próżnowali w tym czasie, zagryzając się wzajem na śmierć i mordując, gdzie się tylko zdarzyło. Okazało się naocznie, że nie tylko rewolucjoniści, lecz i wszyscy inni mają w sobie żyłkę do rzezi. Cezary nie wiedział, kim właściwie jest i gdzie jest jego miejsce w tych zatargach. Nie mógł stać po stronie Ormian ani Tatarów, ani Turków, ani Anglików, ani Rosjan, którzy tu niegdyś władali, a później obalili swą władzę przynosząc hasła rewolucji. Rewolucja jednak upadła i nie było o niej mowy w ogniu dwu frontów rozjuszonych. Jedyną rzeczywistością realną i niezmienną został znowu, jak przed nieprzeliczonymi wiekami, gaz, pałający węglowodór, którego pochwycenie odpokutował ongi Prometeusz przybiciem rąk do skał Kaukazu. Nie z taką już pogardą, jak niegdyś, Cezary Baryka myślał teraz o świątyni ognia między kopalniami nafty Barachan i Surachan, gdzie niegdyś wyznawcy Zoroastra czcili tę wieczystą moc niszczyciela. Nic innego przecie, tylko tajemne nagromadzenie skalnego oleju we wnętrzu ziemi zegnało w to miejsce tyle nacji wszelakich i rozmaitych, a tak je między sobą skłóciło. Komuż było oddać pierwszeństwo, a choćby słuszność w wyścigu do najobfitszego, samorodnego źródła? Zaiste — nie było komu.</p>
+<p>Toteż Baryka czuł się szczególnie samotnym, samotnym aż do śmierci. Śmierć stała się dlań obojętną i niemal pożądaną. Ohydny wiatr <emph>Nord</emph> lecący z gór Kaukazu, pociski armatnie bijące z południa, dym płonących źródeł naftowych, zaduch trupi wszędzie, głód, pragnienie, wszy, brud i nędza legowiska, którym by niegdyś psa podwórzowego nie poczęstował, nie były tak dokuczliwe, jak owa pustka we wnętrzu i niemożność uczepienia się za cokolwiek. Życie z dnia na dzień, życie na poły złodziejskie, którego jedynym celem było zdobywanie za wszelką cenę najnędzniejszego pod słońcem pożywienia, przejadło się i obmierzło. Toteż Baryka wałęsał się niejednokrotnie w miejscach najbardziej niebezpiecznych, pustych, pogardzając grozą śmierci.</p>
+<p>A przecie prawdziwie groźne zjawiska miały dopiero nadejść. Dostrzeżono wałęsającego się młokosa, pociągnięto go do wojska i pchnięto do okopów. Coś tam wdziano na jego przynagi grzbiet, dano mu w rękę karabinisko sprzed lat wielu, pamiętające zapewne <emph>Jeńca Kaukazu</emph> Puszkina, i kazano strzelać w przestrzeń. Strzelał uporczywie. Trwało to aż do września 1918 roku. Wówczas huk armat wzmógł się i rozpętał do swego zenitu. W różnojęzycznym i niezbyt wojowniczo usposobionym tłumie obrońców pozycji wszczął się harmider, modny podówczas na terenach rosyjskich. — Radzono. — Rozbrzmiało miłe hasło: do domu! „Armia ormiańska” wycofała się z okopów, pomknęła ku okrętom stojącym w porcie i co najmniej w połowie swej liczebności odpłynęła za morze, na drugi brzeg Morza Kaspijskiego, do kraju Sartów.</p>
+<p>Ponieważ Cezary nie miał „domu”, do którego z frontu mógłby wycofać swe męstwo, za morze się nie kwapił, życia zbytnio nie cenił, więc po prostu wrócił do domowej i poniekąd rodzinnej piwnicy. Muzealny karabin zostawił w rowie, bagnet w sposób modny wbiwszy w ziemię, a jakiś znaczek przyczepiony swego czasu do jego prawego ramienia odpruł starannie.Wojska tureckie bez wszelkiego trudu „zdobyły” pozycje na wzgórzach bakińskich i wkroczyły do miasta. Lwy albańskie i piechota dardanelska, która na polach dawnej Troi dała się Anglikom dobrze we znaki, nie miała po prawdzie wielkiego pola do popisu. Anglicy, broniący śródmieścia z męstwem stałym a beznadziejnym, zostali osaczeni przeważającą siłą. Ośmiuset zdołało odpłynąć, ośmiuset zostało. Nie pomogło złożenie broni i wyciąganie bezbronnych rąk: te osiem setek żołnierzy zostały wykłute do nogi. Po czym nastało zaprawdę piekło na tym dymiącym padole. W ciągu czterech dni Tatarzy wzięli odwet, mordując siedemdziesiąt kilka tysięcy Ormian, Rosjan i wszelkich innych, jacy się na placu znaleźli, a byli podejrzani o sprzyjanie Ormianom.</p>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0021">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Paziowie króla Zygmunta : ELTeC edition</title>
+<author ref="http://viaf.org/viaf/3522169">Domańska, Antonina (1853-1917)</author>
+</titleStmt>
+<extent>
+<measure unit="words">43324</measure>
+</extent>
+<publicationStmt>
+<p>Published as part of ELTeC <date>2019-06-09</date></p>
+</publicationStmt>
+<sourceDesc>
+<bibl type="digitalSource">
+<title>Paziowie króla Zygmunta</title>
+<ref>http://wolnelektury.pl/katalog/lektura/paziowie-krola-zygmunta</ref>
+</bibl>
+<bibl type="printSource">
+<title>Paziowie króla Zygmunta</title>
+<author>Domańska, Antonina</author>
+<publisher>Warszawa: Arct</publisher>
+<date>1910</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc n="eltec-1">
+<p></p>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="pl">Polish</language>
+</langUsage>
+<textDesc>
+<authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
+<size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+<reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+<timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
+</textDesc>
+</profileDesc>
+<revisionDesc>
+<change when="2020-04-07">JR convert to ELTeC-1</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div type="titlepage">
+<p>Antonina Domańska</p>
+<p>Paziowie króla Zygmunta</p>
+<p>opowiadanie obyczajowe na tle dawnych wieków</p>
+</div>
+</front>
+<body>
+<div type="chapter">
+<p>Sześć lat minęło, odkąd piękna księżniczka mediolańska poślubiła Zygmunta I, a uroda jej wspaniała nie tylko nic nie straciła na swej świetności, ale owszem wzmogła się i przyodziała majestatem. Królewski małżonek, zakochany nieledwie do szaleństwa, uwielbiał jej wdzięki, jej wszechstronne wykształcenie, jej dowcip wykwintny, a nie widział — czy nie chciał widzieć — licznych wad i brzydkich stron jej charakteru, którymi w późniejszych latach zatruwała mu życie i ciężko się dała we znaki nielubianemu przez się narodowi.</p>
+<p>W czasie owym jednak była Bona zjawiskiem przecudnym, jedną z najpiękniejszych niewiast na świecie.</p>
+<p>Szła tedy wysoka, kształtna, pełnej a smukłej kibici: w każdym calu królowa. Główkę jej wieńczyły faliste zwoje bujnych złotych włosów, zdobne upięciem splecionym z pereł; delikatna płeć blondynki w przeciwieństwie do hebanowych brwi i ciemnych wielkich oczu olśniewała białością; długi, zgrabny nos i bródka śliczna zaokrąglona tworzyły całość nad wszelki wyraz piękną. Suknię miała z jedwabiu srebrzystego, haftowaną w girlandy z róż. Stanik głęboko wycięty w kwadrat, a krojem swym przedłużającym niepomiernie kibić, miał z przodu trzy równoległe wyszycia z drobnych pereł. Rękawy bardzo wąskie rozszerzały się powyżej łokcia, a ściągnięte srebrną wstęgą sterczały na ramieniu sztywną bufą. Spódnica, układana w grube fałdy, rozciągała się po ziemi, co było uważane za konieczne dopełnienie stroju i nazywało się powłokiem. Złoty łańcuszek, wysadzany drogimi kamieniami, otaczał szyję Bony i przytrzymywany u góry diamentową przepinką, spadał aż do pasa, gdzie znowu zakończała go klamerka z rubinów.</p>
+<p>Królowa przebierała od niechcenia palcami ogniwa łańcucha, okazując przy tej niby bezwiednej zabawce wąziutką małą rączkę i pierścionki drogocenne na długich, różowo zakończonych paluszkach. W lewej ręce trzymała cieniuchną chusteczkę z szerokim szlakiem koronkowym.</p>
+<p>Damy dworskie, same Włoszki, towarzyszyły królowej. Izabela Papacoda niosła krosienka najjaśniejszej pani; Marina Arcamone, ochmistrzyni dworu, miała w pogotowiu duży wachlarz od słońca; Laura Beltrani, lektorka, dźwigała kilka tomów poezyj do wyboru; Beatrycze de Macris — kosz z jedwabiami i perełkami; Lukrecja Caldorra i Hipolita de Opulo, najmłodsze z dam dworskich, nie zaszczycone w tym dniu żadnym poleceniem, szły na ostatku i szeptały sobie widno coś bardzo wesołego, bo to jedna, to druga zasłaniała usta chusteczką, tłumiąc niestosowne w pobliżu królowej chichotanie. Sześciu paziów w barwie Sforzów postępowało po obu stronach alei równolegle z paniami, drugich sześciu zamykało orszak królowej.</p>
+<p>Pan ochmistrz wybierał zazwyczaj najurodziwszych i najzręczniejszych ze swych wychowanków do usług miłościwej pani. Ani ospały Montwiłł, ani przysadzisty Czema, ani Wiśniowiecki jąkała, ani czerwonowłosy Kosta nie dostępowali tego zaszczytu. Za to król jegomość nie zwracał uwagi na powierzchowność, dla każdego z malców zarówno bywał łaskawym i sprawiedliwym.</p>
+<p>Na co dzień nosili paziowie szaraczkowe lub granatowe sukienne ubrania; od święta i na służbie musieli być strojnie przyodziani. Dziś więc każdy z dwunastu miał berecik jasnoszafirowy, aksamitny, z białym strusim piórkiem, koszulę białą, atłasową, z koronkową krezką, suto marszczoną i sztywnie przylegającą do szyi aż pod same uszy. Szatka zwierzchnia z tego samego aksamitu co beret, nisko wycięta wzorem kobiecych sukien, a wdziewana przez głowę i dlatego zwana nasuwaniem, nie miała wcale zapięcia ani guzików; w pasie zaś przytrzymana była złotą taśmą, u której wisiała jedwabna torebka. Sute rękawy ujęte były w trzy bufy i ponacinane szeroko w kilku miejscach, przez które to przecięcia wyglądał biały atłas koszulki; od ramienia po łokieć aksamitne, od łokcia do ręki białe atłasowe, zakończone koronką dokoła ręki. Nogawice bardzo obcisłe, z niebieskiego jedwabiu, takież safianowe ciżemki.</p>
+<p>Donna Marina Arcamone, wysoka siwiejąca brunetka, złagodziła swe zazwyczaj złośliwe skrzywione usta słodkawym uśmiechem i z wyrazem uwielbienia słuchała słów królowej, rzucając od czasu do czasu jakieś krótkie zdanie dla podtrzymania rozmowy. Orli jej nos, zapewne bardzo kształtny za młodu, zaostrzył się z biegiem lat i począł mieć niejakie konszachty z brodą, która się ku niemu uprzejmie wysuwała. Brwi, podniesione wysoko nad wypukłymi oczami, nadawały jej twarzy wyraz wiecznego pytania. I rzeczywiście pytanie, a raczej badanie i podpatrywanie były treścią jej życia i zajęcia przy dworze. Z lubością wywiadywała się o ważniejszych, mniej ważnych i zupełnie błahych zajściach, snuła domysły, a czasem nawet przędła leciuchne, pajęcze nici intrygi.</p>
+<p>— Warto by zajrzeć do nowego ogrodu — rzekła Bona — ciekawam, jak się sprawiają moje pinie i cyprysy i co Paolo obsadził dokoła altany.</p>
+<p>— Wasza królewska mość raczy sobie skrócić drogę przez wirydarzyk czy woli obejść wzdłuż murów? — spytała Beatrycze de
+Macris.</p>
+<p>— Ach, oczywiście, że lepiej prosto niż kołować — odparła Bona. I całe towarzystwo skierowało się ku ogródkowi księżniczki Jadwigi.</p>
+<p>Dziewczynka klęczała właśnie przed krzakiem róży i ostrym nożykiem obcinała przekwitłe kwiatki. W cieniu lipy na ławce darniowej siedziała Szczepanowa i szyła jakąś bieliznę. Na widok przechodzącej królowej staruszka dźwignęła się z trudem i skłoniła pokornie; mała królewna przerwała także swe zajęcie, powstała z klęczek i złożyła ukłon nie przynoszący niestety wielkiego zaszczytu jej wychowawczyni.</p>
+<p>Bona skinęła z lekka głową i uśmiechnęła się do signory Arcamone ze wzgardliwą litością. Gdy jednak minęły wirydarzyk, przystanęła, coś sobie jakby przypominając, i rzekła do ochmistrzyni:</p>
+<p>— Zechciejcie poprosić królewnę, by się połączyła z nami i przeszła do nowych ogrodów, gdzie zasiądziemy z robotą i słuchać będziemy zajmującej lektury.</p>
+<p>Stara dama zawróciła skwapliwie i pobiegła, o ile jej nogi starczyły, do wirydarza.</p>
+<p>— Przychodzę z zaproszeniem od najmiłościwszej pani na robótkę i czytanie w nowym ogrodzie — wyrecytowała urzędowym tonem, bez cienia uprzejmości.</p>
+<p>Dziewczynka skrzywiła się nieznacznie i spojrzała pytająco na niańkę.</p>
+<p>— Proszę pójść za mną, najmiłościwsza pani czeka.</p>
+<p>Na twarz Szczepanowej uderzył ciemny rumieniec, płótno zadrżało w jej rękach.</p>
+<p>— Czy waszmość panna nie wiesz, jak się przemawia do królewskiego dziecka? Swojej równej gadaj, wasza miłość, „proszę pójść ze mną”. Gdyby król jegomość słyszał podobne zuchwalstwo!</p>
+<p>— Nie przyszłam tu po nauki do pani Szczepanowej — odparła
+ochmistrzyni drwiąco. — Jeżeli się tak rozumiecie na dworskich przepisach, to lepiej nauczcie jej królewską wysokość wytworniejszych ukłonów… bardzo by się to przydało, bo istotnie chyba nikt nie odgadnie, patrząc na nią, że ma z księżniczką do czynienia.</p>
+<p>— Cicho, nianiu — głaszcząc staruszkę po rozognionej twarzy, szepnęła Jadwiga i dodała głośniej: — ja nie zważam na mowę tej pani; słyszę ino, że jej królewska mość matka najmiłościwsza prosi do siebie, więc chętnie idę.</p>
+<p>Podniosła główkę dumnie, nie racząc spojrzeć w stronę donny Mariny, i wybiegła szybko, ani się na nią oglądając.</p>
+<p>Włoszka zbladła i zacisnęła pięści w bezsilnej złości…</p>
+<p>Nie ona jedna, zacisnął je także Konstanty Gedroyć, przechodzący w orszaku paziów za królową. Widział i słyszał wszystko i gniewem wezbrało mu serce.</p>
+<p>Księżniczka Jadwiga przysunęła się do królowej i szła ciągle tuż przy jej boku, z pogodną twarzyczką, jakby niepomna tylko co doznanej przykrości.</p>
+<p>Nowy ogród zawiódł nadzieje Bony: piękne krzewy południowe, z największą troskliwością zasadzone o wczesnej wiośnie, do starannie przyrządzonej i użyźnionej ziemi, strzeżone i pielęgnowane umiejętnie przez ogrodników nie chciały się jakoś przyjąć, wyglądały słabo i wątło, marniały w oczach, a niektóre z nich uschły na dobre i wznosiły w górę nagie, czarne badyle. Królowa spoglądała z gorzkim uśmiechem na biedne karłowate roślinki, obeszła kilka ścieżek, dotknęła ręką więdnących liści, pochyliła się nad grządkami zamorskich kwiatów, wreszcie ruszyła ramionami i rzekła z gniewem:</p>
+<p>— Zaiste, martwe stworzenia rozumniej się zachowują od ludzi, nie chcąc żyć w tym kraju bez słońca i ciepła. Stęsknione oczy moje nie ujrzą już pinii rozłożystych ani cytryn o połyskliwych liściach i złotych owocach, ani wysmukłych cyprysów, ani srebrnozielonej oliwy… Ach, co za kraj! Niedźwiedzi i turów ojczyzna… jakże dumną jestem, że danym mi było urodzić się w słonecznej Italii.</p>
+</div>
+</body>
+</text>
+</TEI>

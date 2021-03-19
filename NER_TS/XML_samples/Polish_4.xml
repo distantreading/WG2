@@ -1,0 +1,92 @@
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0070">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Ogniem i mieczem : ELTeC edition</title>
+<author ref="http://viaf.org/viaf/24608122">Sienkiewicz, Henryk (1846-1916)</author>
+</titleStmt>
+<extent>
+<measure unit="words">281837</measure>
+</extent>
+<publicationStmt>
+<p>Published as part of ELTeC <date>2019-06-09</date></p>
+</publicationStmt>
+<sourceDesc>
+<bibl type="digitalSource">
+<title>Ogniem i mieczem, tom pierwszy</title>
+<ref>http://wolnelektury.pl/katalog/lektura/ogniem-i-mieczem-tom-pierwszy</ref>
+</bibl>
+<bibl type="printSource">
+<title>Ogniem i mieczem, tom pierwszy</title>
+<author>Sienkiewicz, Henryk</author>
+<publisher>Warszawa: Słowo</publisher>
+<date>1884</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc n="eltec-1">
+<p></p>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="pl">Polish</language>
+</langUsage>
+<textDesc>
+<authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+<size xmlns="http://distantreading.net/eltec/ns" key="long"/>
+<reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+<timeSlot xmlns="http://distantreading.net/eltec/ns" key="T3"/>
+</textDesc>
+</profileDesc>
+<revisionDesc>
+<change when="2020-04-07">JR convert to ELTeC-1</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div type="titlepage">
+<p>Henryk Sienkiewicz</p>
+<p>Ogniem i mieczem</p>
+</div>
+</front>
+<body>
+<div type="group"><head>Tom I</head>
+<div type="chapter"><head>Rozdział I</head>
+<p>Rok 1647 był to dziwny rok, w którym rozmaite znaki na niebie i ziemi zwiastowały jakoweś klęski i nadzwyczajne zdarzenia.</p>
+<p>Współcześni kronikarze wspominają, iż z wiosny szarańcza w niesłychanej ilości wyroiła się z Dzikich Pól i zniszczyła zasiewy i trawy, co było przepowiednią napadów tatarskich. Latem zdarzyło się wielkie zaćmienie słońca, a wkrótce potem kometa pojawiła się na niebie. W Warszawie widywano też nad miastem mogiłę i krzyż ognisty w obłokach; odprawiano więc posty i dawano jałmużny, gdyż niektórzy twierdzili, że zaraza spadnie na kraj i wygubi rodzaj ludzki. Nareszcie zima nastała tak lekka, że najstarsi ludzie nie pamiętali podobnej. W południowych województwach lody nie popętały wcale wód, które podsycane topniejącym każdego ranka śniegiem wystąpiły z łożysk i pozalewały brzegi. Padały częste deszcze. Step rozmókł i zmienił się w wielką kałużę, słońce zaś w południe dogrzewało tak mocno, że — dziw nad dziwy! — w województwie bracławskim i na Dzikich Polach zielona ruń okryła stepy i rozłogi już w połowie grudnia. Roje po pasiekach poczęły się burzyć i huczeć, bydło ryczało po zagrodach. Gdy więc tak porządek przyrodzenia zdawał się być wcale odwróconym, wszyscy na Rusi, oczekując niezwykłych zdarzeń, zwracali niespokojny umysł i oczy szczególniej ku Dzikim Polom, od których łatwiej niźli skądinąd mogło się ukazać niebezpieczeństwo.</p>
+<p>Tymczasem na Polach nie działo się nic nadzwyczajnego i nie było innych walk i potyczek jak te, które się odprawiały tam zwykle, a o których wiedziały tylko orły, jastrzębie, kruki i zwierz polny.</p>
+<p>Bo takie to już były te Pola. Ostatnie ślady osiadłego życia kończyły się, idąc ku południowi, niedaleko za Czehrynem od Dniepru, a od Dniestru — niedaleko za Humaniem, a potem już hen, ku limanom i morzu, step i step, w dwie rzeki jakby w ramę ujęty. Na łuku Dnieprowym, na Niżu, wrzało jeszcze kozacze życie za porohami, ale w samych Polach nikt nie mieszkał i chyba po brzegach tkwiły gdzieniegdzie „polanki” jakoby wyspy wśród morza. Ziemia była <emph>de nomine</emph> Rzeczypospolitej, ale pustynna, na której pastwisk Rzeczpospolita Tatarom pozwalała, wszakże gdy Kozacy często bronili, więc to pastwisko było i pobojowiskiem zarazem.</p>
+<p>Ile tam walk stoczono, ilu ludzi legło, nikt nie zliczył, nikt nie spamiętał. Orły, jastrzębie i kruki jedne wiedziały, a kto z daleka dosłyszał szum skrzydeł i krakanie, kto ujrzał wiry ptasie nad jednym kołujące miejscem, to wiedział, że tam trupy lub kości niepogrzebione leżą… Polowano w trawach na ludzi jakby na wilki lub suhaki. Polował, kto chciał. Człek prawem ścigany chronił się w dzikie stepy, orężny pasterz trzód strzegł, rycerz przygód tam szukał, łotrzyk łupu. Kozak Tatara, Tatar Kozaka. Bywało, że i całe watahy broniły trzód przed tłumami napastników. Step to był pusty i pełny zarazem, cichy i groźny, spokojny i pełen zasadzek, dziki od Dzikich Pól, ale i od dzikich dusz.</p>
+<p>Czasem też napełniała go wielka wojna. Wówczas płynęły po nim jak fale czambuły tatarskie, pułki kozackie, to chorągwie polskie lub wołoskie; nocami rżenie koni wtórowało wyciom wilków, głos kotłów i trąb mosiężnych leciał aż do Owidowego jeziora i ku morzu, a na Czarnym Szlaku, na Kuczmańskim — rzekłbyś: powódź ludzka.Granic Rzeczypospolitej strzegły od Kamieńca aż do Dniepru stanice, „polanki” i — gdy szlaki miały się zaroić, poznawano właśnie po niezliczonych stadach ptactwa, które, płoszone przez czambuły, leciały na północ. Ale Tatar, byle wychylił się z Czarnego Lasu lub Dniestr przebył od strony wołoskiej, to stepem równo z ptakami stawał w południowych województwach.</p>
+<p>Wszelako zimy owej ptactwo nie ciągnęło z wrzaskiem ku Rzeczypospolitej. Na stepie było ciszej niż zwykle. W chwili gdy rozpoczyna się powieść nasza, słońce zachodziło właśnie, a czerwonawe jego promienie rozświecały okolicę pustą zupełnie. Na północnym krańcu Dzikich Pól, nad Omelniczkiem, aż do jego ujścia, najbystrzejszy wzrok nie mógłby odkryć jednej żywej duszy ani nawet żadnego ruchu w ciemnych, zeschniętych i zwiędłych burzanach. Słońce połową tylko tarczy wyglądało jeszcze zza widnokręgu. Niebo było już ciemne, a potem i step z wolna mroczył się coraz bardziej. Na lewym brzegu, na niewielkiej wyniosłości podobniejszej do mogiły niż do wzgórza, świeciły tylko resztki murowanej stanicy, którą niegdyś jeszcze Teodoryk Buczacki wystawił, a którą potem napady starły. Od ruiny owej padał długi cień. Opodal świeciły wody szeroko rozlanego Omelniczka, który w tym miejscu skręca się ku Dnieprowi. Ale blaski gasły coraz bardziej na niebie i na ziemi. Z nieba dochodziły tylko klangory żurawi ciągnących ku morzu; zresztą ciszy nie przerywał żaden głos.</p>
+<p>Nagle dał się słyszeć przeraźliwy świst. Zmieszane głosy poczęły wrzeszczeć przeraźliwie: „Hałła! Hałła! Jezu Chryste! ratuj! bij!” Rozległ się huk samopałów, czerwone światła rozdarły ciemności. Tętent koni zmieszał się ze szczękiem żelaza. Nowi jacyś jeźdźce wyrośli jakby spod ziemi na stepie. Rzekłbyś: burza zawrzała nagle w tej cichej, złowrogiej pustyni. Potem jęki ludzkie zawtórowały wrzaskom strasznym, wreszcie ucichło wszystko: walka była skończona.</p>
+<p>Widocznie rozegrywała się jedna ze zwykłych scen na Dzikich Polach.</p>
+<p>Jeźdźcy zgrupowali się na wyniosłości, niektórzy pozsiadali z koni, przypatrując się czemuś pilnie.</p>
+<p>Wtem w ciemnościach ozwał się silny i rozkazujący głos:</p>
+<p>— Hej tam! skrzesać ognia i zapalić!</p>
+<p>Po chwili posypały się naprzód iskry, a potem buchnął płomień suchych oczeretów i łuczywa, które podróżujący przez Dzikie Pola wozili zawsze ze sobą.</p>
+<p>Wnet wbito w ziemię drąg od kaganka i jaskrawe, padające z góry światło oświeciło wyraźnie kilkunastu ludzi pochylonych nad jakąś postacią leżącą bez ruchu na ziemi.</p>
+<p>Byli to żołnierze ubrani w barwę czerwoną, dworską, i w wilcze kapuzy. Z tych jeden, siedzący na dzielnym koniu, zdawał się reszcie przewodzić. Zsiadłszy z konia zbliżył się do owej leżącej postaci i spytał:</p>
+<p>— A co, wachmistrzu? żyje czy nie żyje?</p>
+<p>— Żyje, panie namiestniku, ale charcze; arkan go zdławił.</p>
+<p>— Co zacz jest?</p>
+<p>— Nie Tatar, znaczny ktoś.</p>
+<p>— To i Bogu dziękować.</p>
+<p>Tu namiestnik popatrzył uważnie na leżącego męża.</p>
+<p>— Coś jakby hetman — rzekł.</p>
+<p>— I koń pod nim tatar zacny, jak lepszego u chana nie znaleźć— odpowiedział wachmistrz. — A ot, tam go trzymają.</p>
+<p>Porucznik spojrzał i twarz mu się rozjaśniła. Obok dwóch szeregowych trzymało rzeczywiście dzielnego rumaka, który tuląc uszy i rozdymając chrapy wyciągał głowę i poglądał przerażonymi oczyma na swego pana.</p>
+<p>— Ale koń, panie namiestniku, będzie nasz? — wtrącił tonem pytania wachmistrz.</p>
+<p>— A ty, psiawiaro, chciałbyś chrześcijanowi konia w stepie odjąć?</p>
+<p>— Bo zdobyczny…</p>
+<p>Dalszą rozmowę przerwało silniejsze chrapanie zduszonego męża.</p>
+<p>— Wlać mu gorzałki w gębę — rzekł pan namiestnik — pas odpiąć.</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>
