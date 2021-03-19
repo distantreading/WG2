@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Le château de Pinon I: ELTeC edition</title>
+           <!-- Alternative title for the same text: "Le Salon du diable" -->
+           <author ref="viaf:102278">Comtesse Dash [Gabrielle Anna de Cisternes de Courtiras, vicomtesse de Saint-Mars] (1804-1872)</author>
+           <respStmt>
+              <resp>encoded by</resp>
+              <name>Pia Geißel</name>
+           </respStmt>
+           <respStmt>
+              <resp>Original data capture</resp>
+              <name>Bibliothèque nationale de France, département Littérature et art,  Y2-25681</name>
+           </respStmt>
+        </titleStmt>
+        <extent>
+           <measure unit="words">44767</measure>
+           <measure unit="pages">332</measure>
+           <measure unit="vols">2</measure>
+        </extent>
+        <publicationStmt>
+           <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+           <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
+           <date when="2019-11-04"/>
+           <availability>
+              <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+           </availability>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
+           <!--First ElTeC edition 2019-09-25 -->
+        </publicationStmt>
+        <sourceDesc>
+           <bibl type="printSource">
+              <title>Le château de Pinon I</title>
+              <author>Comtesse Dash</author>
+              <publisher>Desessart 22, RUE DES GRANDS-AUGUSTINS</publisher>
+              <pubPlace>Paris</pubPlace>
+              <!-- Gallica entered wrong date. Original date for print source according to scan: 1843 -->
+              <date>1844</date>
+           </bibl>
+           <bibl type="digitalSource">
+              <title>Le château de Pinon. VOL 1: Gallica edition</title>
+              <author>Comptesse Dash</author>
+              <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k54963878"/>
+              <date>2009-24-02</date>
+           </bibl>
+           <bibl type="firstEdition">
+              <!-- best guess -->
+              <date>1843</date>
+           </bibl>
+        </sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="chapter">
+            <head>II</head>
+            <head>LA PRÉSENTATION.</head>
+            <p>Le grand jour était arrivé. Dès le matin, Henriette, se mit à sa toilette et commença à se parer.</p>
+            <p>— Louison, dit-elle, retiens bien ceci : Il faut que mademoiselle de Roucy, qui va être présentée ce matin en simple robe de gros de Tours blanc, sans bijoux, sans points de Hongrie, ni de Venise, soit remarquée de toute la Cour. Arrange-toi donc de manière à empêcher le moindre pli à mes cheveux et à mon corsage, que mes boucles soient tombantes et gracieuses, que cette branche de houx avec ses graines rouges, qui formera toute ma coiffure, soit placé eartistement en arrière. Je l'ai apportée du bois de Sissone, et je ne m'attendais guère qu'elle paraîtrait devant le roi de France. Ce sont les diamants de ma couronne à moi.</p>
+            <p>Lorsqu'elle fut prête et que madame d'Heudicourt vint la prendre dans son carrosse, son père et MM. de Lameth reculèrent de surprise en la voyant si belle.</p>
+            <p>— Hélas ! monsieur, dit le jeune homme à l'oreille de son père, on la remarquera toujours!</p>
+            <p>— Comme vous voilà fraîche et jolie, mademoiselle, s'écria la marquise à son aspect ; je vais ce matin être bien questionnée.</p>
+            <p>Pendant tout le voyage, Henriette fut distraite et préoccupée. La nouveauté du spectacle, la beauté de la route, les équipages qui se croisaient autour d'elle, lui causaient une sorte d'étourdissement. Lorsqu'elle aperçut le château de Versailles, lorsqu'elle descendit de carrosse, lorsqu'elle monta cet escalier demarbre, encombré de tout ce que la France avait de beau, de vaillant, de noble, elle sentit son coeur battre, et elle jura en elle-même de ne plus quitter ce séjour enchanteur.</p>
+            <p>Bonne de Pons, marquise d'Heudicourt, était une des femmes les mieux placée à la Cour. Liée d'amitié avec madame de Montespan, admise à l'intimité du roi et de sa favorite, elle était de leurs parties de chasse et de jeu, on la considérait en un mot, comme une puissance. Aussitôt qu'elle parut, les flatteurs l'entourèrent. Elle fut saluée par mille compliments, et chacun lui demanda le nom de sa charmante compagne. La simplicité étrange de son costume, dont sa beauté était plus parée que d'une couronne, attirait tous les regards. Quand le roi parut, il fit le tour de la galerie, saluant les femmes, leur parlant selon le degré de faveur où elles étaient classées. En passant devant madame d'Heudicourt, il s'approcha d'elle et lui adressa quelques phrases bienveillantes. Ses yeux tombèrent sur Henriette, rouge d'émotion, et plus belle que madame de Montespan elle-même.</p>
+            <p>— Quelle est cette charmante personne ? demanda-t-il.</p>
+            <p>— Sire, c'est mademoiselle de Roucy de Sissone ; Madame a daigné l'admettre parmi ses filles. Sa famille a toujours servi le Roi dans les armées.</p>
+            <p>Le roi regarda longtemps Henriette.</p>
+            <p>— Je serai charmé de rencontrer Mademoiselle chez Madame, dit-il enfin, et il continua sa marche en retournant souvent la tête.</p>
+            <p>Il n'en fallut pas davantage pour apporter à Henriette un succès furieux. Dès que le roi entra au conseil, on se dispersa dans les salons, et ce fut à qui approcherait de la merveille du jour. Madame d'Heudicourt ne pouvait suffire à lui nommer les gens de qualité qui réclamaient cette faveur. Elle ne s'en montra point embarrassée, répondit à toutes les questions qu'on lui adressa, à tous les compliments qu'elle reçut, comme si elle n'eût fait que cela toute sa vie.</p>
+            <p>Madame de Montespan, inquiète et jalouse de cette nouvelle rivalité, voulut savoir si son esprit ressemblait à son visage. L'altière jeune fille ne baissa pas son regard en rencontrant celui de la favorite. Elle se sentait son égale en beauté, et elle la surpassait en jeunesse.</p>
+            <p>— Mademoiselle arrive de province? dit-elle.</p>
+            <p>— Oui, madame.</p>
+            <p>— Et quand comptez-vous y retourner ?</p>
+            <p>— Est-ce qu'à la Cour il y a un lendemain ? On m'a toujours répété qu'il n'y fallait pas penser.</p>
+            <p>— Il faut s'occuper du passé et surtout du présent, c'est le Dieu des courtisans, mademoiselle.</p>
+            <p>— Je vous remercie, madame, de cette leçon politique, je ne l'oublierai pas.</p>
+            <p>Madame de Montespan se mordit les lèvres et comprit qu'elle avait affaire à forte partie.</p>
+            <p>— Cette jeune fille a un aplomb singulier pour son âge, dit-elle en se retirant, elle ira loin.</p>
+            <p>Les gens qui se rappelaient mademoiselle de Tonnay-Charente, avant son mariage avec M. de Montespan, pensèrent que la marquise devait s'y connaître.</p>
+            <p>Mademoiselle de Roucy fut présentée à Madame, qui lui fit son compliment de ses triomphes, en ajoutant :</p>
+            <p>— Prenez-garde, Mademoiselle, prenez-garde, la tête tourne vite à Versailles, et on s'en repent, ajouta la princesse en lui montrant madame de la Vallière, pâle et dolente dans un coin du sallon.</p>
+            <p>Henriette chercha parmi les seigneurs à apercevoir son père et les comtes de Lameth, elle les découvrit bientôt debout près d'une colonne et assez désorientés. Elle compara sa propre assurance à leur timidité gauche, et son orgueil s'en applaudit.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

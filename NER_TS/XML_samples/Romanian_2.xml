@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Ioan Tunsu: ediție HAIRO</title>
+           <author>Panait MACRI</author>
+           <respStmt>
+              <resp>OCRizat de</resp>
+              <name>Roxana Patraș</name>
+           </respStmt>
+           <respStmt>
+              <resp>Corectat și anotat TEI de</resp>
+              <name>Ioana Galleron</name>
+           </respStmt>
+           <principal>
+              <name>Patraș, Roxana</name>
+              <name>Galleron, Ioana</name>
+           </principal>
+        </titleStmt>
+        <extent>
+           <measure unit="words"></measure>
+           <measure unit="pages"></measure>
+        </extent>
+        <publicationStmt>
+           <publisher>Proiect HAIRO (U. "Alexandru Ioan Cuza"/ U. Sorbonne-Nouvelle)</publisher>
+           <pubPlace>Iași</pubPlace>
+           <pubPlace>Paris</pubPlace>
+           <date>2020</date>
+           <availability>
+              <licence target="https://creativecommons.org/licenses/by-nc/4.0/legalcode.ro">Distributed
+                 under a Creative Commons Attribution-NonCommercial 4.0 Unported License</licence>
+           </availability>
+           <idno type="handle">11280/a6ee1404</idno>
+           <distributor>NAKALA
+              <ref>www.nakala.fr</ref>
+           </distributor>
+        </publicationStmt>
+        <sourceDesc>
+           <bibl>
+              <author>MACRI Panait</author>
+              <title>Ioan Tunsu, căpitan de haiduci</title>
+              <pubPlace>Bucuresti</pubPlace>
+              <publisher>Cultura Românească, Institut de editură, arte grafice și confecțiuni din hârtie</publisher>
+              <date>1927</date>
+           </bibl>
+        </sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="chapter" n="12">
+            <head>Sterică în loc de Tunsu.</head>
+            <p>Nu numai în țara muntenească, dar chiar și în Moldova merse groaza de numele lui Tunsu.</p>
+            <p>Acest om, plin de inimă și iscusință, părea că este nemuritor.</p>
+            <fw>Tunsu haiducul. 7</fw>
+            <pb n="100" source="98"/>
+            <p>Pe la anul 1829, în strada Sf. Vineri din Iași se afla o familie mare de fanariot.</p>
+            <p>Această familie se compunea dintr’un bătrân ca de 60 ani, din soția sa și dintr’o fată în etate de optsprezece ani, de o frumusețe răpitoare.</p>
+            <p>Avea o fată, era de 18 ani și era frumoasă ! Aceste cuvinte credem că sunt de ajuns pentru a ne putea închipui că mai în totdeauna casa fanariotului Iani trebuia să fie vizitată de numeroși tineri.</p>
+            <p>Și cum vom putea crede altfel când în ziua de astăzi vedem fete cutreerând casele tinerilor ! N’are cineva decât să colinde mahalalele Bucureștiului, să observe de aproape pe fetele noastre cari se cred a fi culte și va remâne încremenit.</p>
+            <p>Câtă decadență ! câtă demoralizare ! Nimic, respect către părinți, pudoare, toate au căzut înaintea unui desfrâu fără margini !</p>
+            <p>Și din astfel de fete, cu trecutul perdut în cele mai scandaloase aventuri, cum să nu iasă femei, cari să nu ceară emanicipare ?</p>
+            <p>Cu toate astea, Panelopi nu era din acestea, nu era încă alterată de <hi rend="italics">civilizația franceză</hi>.</p>
+            <p>Ca fată tânără iubia și ea pe un tânăr pe care voia să’l ia de bărbat.</p>
+            <p>Bătrânul Iani însă, amâna în totd’auna căsătoria acestor doi tineri pentru cuvântul că voește mai întâiu să prindă pe Tunsu, să fie înălțat în funcțiunea sa ș’apoi să facă nunta.</p>
+            <p>Sărmanul Gavril trebuia să aștepte mai întâi ca Tunsu să fie prins ș’apoi să ia pe frumoasa Penelopi.</p>
+            <pb n="101" source="99"/>
+            <p>Iată insă ce s’a întâmplat.</p>
+            <p>Un tânăr anume Sterică iubia încă de mult pe grațioasa grecoaică. El pândea întotd’auda când părinții ei lipseau de acasă, se strecura la dânsa și ore întregi nu-i vorbia decât de amorul său.</p>
+            <p>— Ia ascultă dragă Penelopi, zise intr’o zi Gavril iubitei sale ; când oare tatăl Dumitale ne va da voe să ne cununăm ?</p>
+            <p>— De, drăguțul meu, îi respunse ea, tata voește ca mai întâi să prindă pe Tunsu haiducul ș’apoi să mă mărit.</p>
+            <p>— Da, pronunță el cu tristeță, Domnul Iani e un om egoist și pentru că Domnul țării a dat sfoară prin țară că oricine o prinde pe Tunsu are 1000 de galbeni, face toate chipurile ca să pue mâna pe el. Dar cu Tunsu dumnealui, noi lăsăm timpul să treacă ș’apoi în cele din urmă parcă Tunsu s’ar prinde numai așa !</p>
+            <p>— Ai dreptate, dragă Gavril, ai dreptate, dar ce vrei să faci, așa e tata și ca să’l schimbi din felul său nu se poate.</p>
+            <p>Dupe aceste cuvinte schimbate între ei, Gavril se aprofundă în gânduri. El rămase astfel mai multe ceasuri și ar fi rămas încă mult în acea gândire profundă, dacă vocea dulce și armonioasă a frumoasei sale nu l'ar fi deșteptat cu cuvintele :</p>
+            <p>— Unde te gândești?, îl întrebă Penelopi.</p>
+            <p>Cu toate astea Gavril mai rămase încă câteva minute în starea sa de mai înainte.</p>
+            <p>— Să vezi, dragă Penolopi, îi zise în urmă Gavril, <pb n="102" source="100"/>mă gândesc la un plan prin care vom isbuti să ne cununăm.</p>
+            <p>— Ce plan ? spune-mi’l și mie, întrebă cu grăbire Penelopi.</p>
+            <p>— Lasă, îl vei vedea, îl vei vedea.</p>
+            <p>După aceea își luă pălăria și eși afară.</p>
+            <p>— Sterică iubește pe Penolopi, își zise. Iani nu voește să-și mărite fiica până nu va prinde pe Tunsu ; ei bine, Tunsu va fi prins și eu voi lua pe frumoasa Penelopi.</p>
+            <p>Zicând aceste cuvinte, se duse numai decât până la casa lui Sterică și găsindu-l aici îi vorbi astfel :</p>
+            <p>— Măi Sterică, tu știi bine că eu îți sunt un bun prieten.</p>
+            <p>— Asta o știam eu de mult și de aceea în totd’auna contam pe prietenia ta.</p>
+            <p>— Și nu ai făcut deloc rău ; încrederea ta, m’a onorat și mă onorează prea mult, zise Gavril cu un aer iscusit și prefăcut.</p>
+            <p>— Dar ia ascultă, îi zise după aceea, am să-ți spun ceva.</p>
+            <p>— Ce voești să spui ? întrebă Sterică.</p>
+            <p>— Nu știu, numai dacă nu m’am înșelat.</p>
+            <p>— Să vedem.</p>
+            <p>— Uite, dragă Sterică, am auzit că tu ai fi iubind pe drăgălașa Penelopi.</p>
+            <p>— O, da, da, însă cine ți-a spus ?</p>
+            <p>— Chiar ea.</p>
+            <p>— Penelopi?</p>
+            <p>— Dânsa.</p>
+            <p>— Vai ! dar m’o fi iubind oare și ea pe mine ?</p>
+            <pb n="103" source="101"/>
+            <p>— Nici nu trebue să te mai îndoești de aceasta.</p>
+            <p>— Scumpul meu prieten, cât ești tu de bun !</p>
+            <p>Și Sterică coprinse în brațele sale pe prefăcutul său prieten Gavril.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

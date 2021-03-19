@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Cuore: edizion ELTeC</title>
+           <author>De Amicis, Edmondo (1846-1908)</author>
+           <respStmt>
+              <resp>ELTeC encoding</resp>
+              <name>Lou Burnard</name>
+           </respStmt>
+        </titleStmt>
+        <extent><measure unit="words">84116</measure></extent>
+        <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-11-14"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC : --></publicationStmt>
+        
+        <sourceDesc><bibl type="printSource">
+           <title>Cuore</title>
+           <author>De Amicis, Edmondo</author>
+           <respStmt>
+              <resp>editor</resp>
+              <name>Tamburini, Luciano</name>
+           </respStmt>
+           <publisher>Einaudi</publisher>
+           <pubPlace>Torino</pubPlace>
+           <date>1974</date>
+        </bibl><bibl type="firstEdition"><date>1886</date></bibl></sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Ieri sera, mentre il maestro ci dava notizie del povero Robetti, che dovrà camminare
+            con le stampelle, entrò il Direttore con un nuovo iscritto, un ragazzo di viso molto
+            bruno, coi capelli neri, con gli occhi grandi e neri, con le sopracciglia folte e
+            raggiunte sulla fronte; tutto vestito di scuro, con una cintura di marocchino nero
+            intorno alla vita. Il Direttore, dopo aver parlato nell'orecchio al maestro, se ne
+            uscì, lasciandogli accanto il ragazzo, che guardava noi con quegli occhioni neri,
+            come spaurito. Allora il maestro gli prese una mano, e disse alla classe: — Voi
+            dovete essere contenti. Oggi entra nella scuola un piccolo italiano nato a Reggio di
+            Calabria, a più di cinquecento miglia di qua. Vogliate bene al vostro fratello venuto
+            di lontano. Egli è nato in una terra gloriosa, che diede all'Italia degli uomini
+            illustri, e le dà dei forti lavoratori e dei bravi soldati; in una delle più belle
+            terre della nostra patria, dove son grandi foreste e grandi montagne, abitate da un
+            popolo pieno d'ingegno e di coraggio. Vogliategli bene, in maniera che non s'accorga
+            di esser lontano dalla città dove è nato; fategli vedere che un ragazzo italiano, in
+            qualunque scuola italiana metta il piede, ci trova dei fratelli. — Detto questo
+            s'alzò e segnò sulla carta murale d'Italia il punto dov'è Reggio di Calabria. Poi
+            chiamò forte: — Ernesto Derossi! — quello che ha sempre il primo premio. Derossi
+            s'alzò. — Vieni qua, — disse il maestro. Derossi uscì dal banco e s'andò a mettere
+            accanto al tavolino, in faccia al calabrese. — Come primo della scuola, — gli disse
+            il maestro, — dà l'abbraccio del benvenuto, in nome di tutta la classe, al nuovo
+            compagno; l'abbraccio dei figliuoli del Piemonte al figliuolo della Calabria. —
+            Derossi abbracciò il calabrese, dicendo con la sua voce chiara: — Benvenuto! — e
+            questi baciò lui sulle due guancie, con impeto. Tutti batterono le mani. — Silenzio!
+            — gridò il maestro, non si batton le mani in iscuola! — Ma si vedeva ch'era contento.
+            Anche il calabrese era contento. Il maestro gli assegnò il posto e lo accompagnò al
+            banco. Poi disse ancora: — Ricordatevi bene di quello che vi dico. Perché questo
+            fatto potesse accadere, che un ragazzo calabrese fosse come in casa sua a Torino, e
+            che un ragazzo di Torino fosse come a casa propria a Reggio di Calabria, il nostro
+            paese lottò per cinquant'anni e trentamila italiani morirono. Voi dovete rispettarvi,
+            amarvi tutti fra voi; ma chi di voi offendesse questo compagno perché non è nato
+            nella nostra provincia, si renderebbe indegno di alzare mai più gli occhi da terra
+            quando passa una bandiera tricolore. — Appena il calabrese fu seduto al posto, i suoi
+            vicini gli regalarono delle penne e una stampa, e un altro ragazzo, dall'ultimo
+            banco, gli mandò un francobollo di Svezia.</p>
+                
+         <label>25, martedì</label>
+         
+         <p>Il ragazzo che mandò il francobollo al Calabrese è quello che mi piace più di tutti,
+            si chiama Garrone, è il più grande della classe, ha quasi quattordici anni, la testa
+            grossa, le spalle larghe; è buono, si vede quando sorride; ma pare che pensi sempre,
+            come un uomo. Ora ne conosco già molti dei miei compagni. Un altro mi piace pure, che
+            ha nome Coretti, e porta una maglia color cioccolata e un berretto di pelo di gatto:
+            sempre allegro, figliuolo d'un rivenditore di legna, che è stato soldato nella guerra
+            del 66, nel quadrato del principe Umberto, e dicono che ha tre medaglie. C'è il
+            piccolo Nelli, un povero gobbino, gracile e col viso smunto. C'è uno molto ben
+            vestito, che si leva sempre i peluzzi dai panni, e si chiama Votini. Nel banco
+            davanti al mio c'è un ragazzo che chiamano il muratorino, perché suo padre è
+            muratore; una faccia tonda come una mela, con un naso a pallottola: egli ha
+            un'abilità particolare, sa fare <hi>il muso di lepre</hi>, e tutti gli fanno fare il
+            muso di lepre, e ridono; porta un piccolo cappello a cencio che tiene appallottato in
+            tasca come un fazzoletto. Accanto al muratorino c'è Garoffi, un coso lungo e magro,
+            col naso a becco di civetta e gli occhi molto piccoli, che traffica sempre con
+            pennini, immagini e scatole di fiammiferi, e si scrive la lezione sulle unghie, per
+            leggerla di nascosto. C'è poi un signorino, Carlo Nobis, che sembra molto superbo, ed
+            è in mezzo a due ragazzi che mi son simpatici: il figliuolo d'un fabbro ferraio,
+            insaccato in una giacchetta che gli arriva al ginocchio, pallidino che par malato e
+            ha sempre l'aria spaventata e non ride mai; e uno coi capelli rossi, che ha un
+            braccio morto, e lo porta appeso al collo: — suo padre è andato in America e sua
+            madre va attorno a vendere erbaggi. È anche un tipo curioso il mio vicino di
+            sinistra, — Stardi, — piccolo e tozzo, senza collo, un grugnone che non parla con
+            nessuno, e pare che capisca poco, ma sta attento al maestro senza batter palpebra,
+            con la fronte corrugata e coi denti stretti: e se lo interrogano quando il maestro
+            parla, la prima e la seconda volta non risponde, la terza volta tira un calcio. E ha
+            daccanto una faccia tosta e trista, uno che si chiama Franti, che fu già espulso da
+            un'altra Sezione. Ci sono anche due fratelli, vestiti eguali, che si somigliano a
+            pennello, e portano tutti e due un cappello alla calabrese, con una penna di fagiano.
+            Ma il più bello di tutti, quello che ha più ingegno, che sarà il primo di sicuro
+            anche quest'anno, è Derossi; e il maestro, che l'ha già capito, lo interroga sempre.
+            Io però voglio bene a Precossi, il figliuolo del fabbro ferraio, quello della
+            giacchetta lunga, che pare un malatino; dicono che suo padre lo batte; è molto
+            timido, e ogni volta che interroga o tocca qualcuno dice: — Scusami, — e guarda con
+            gli occhi buoni e tristi. Ma Garrone è il più grande e il più buono.</p>
+      </body>
+  </text>
+</TEI>

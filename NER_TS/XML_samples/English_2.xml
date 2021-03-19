@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Vanity Fair: A Novel without a Hero: ELTeC edition</title>
+           <author ref="https://viaf.org/viaf/95208604/">Thackeray, William Makepeace (1811-1863)</author>
+        </titleStmt>
+        <extent>
+           <measure unit="words">298740</measure>
+        </extent>
+        <publicationStmt>
+           <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+           <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+           <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+        </publicationStmt>
+        <sourceDesc><bibl type="digitalSource"><author>Thackeray, William Makepeace</author>
+           <title>Vanity Fair, A Novel without a Hero. Vols. V &amp; VI</title>
+           <title level="s">Harvard Classics Shelf of Fiction.</title>
+           <publisher>New York: P.F. Collier &amp; Son, 1917</publisher>
+           <publisher>Bartleby.com, 2000.</publisher>
+           <ref target="http://www.bartleby.com/305/">Bartleby</ref></bibl>
+           <bibl type="firstEdition" n="B7155">
+              <author>W. M. Thackeray</author>
+              <title>Vanity Fair: A Novel without a Hero</title>
+              <publisher>London: Bradbury and Evans</publisher>
+              <date>1848</date>
+              <ref target="http://dbooks.bodleian.ox.ac.uk/books/PDFs/590972833.pdf"/>
+           </bibl></sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="chapter">
+            <head>V. Dobbin of Ours</head>
+            <p>CUFF’S fight with Dobbin, and the unexpected issue of that contest, will long
+               be remembered by every man who was educated at Dr. Swishtail’s famous
+               school. The latter youth (who used to be called Heigh-ho Dobbin, Gee-ho
+               Dobbin, and by many other names indicative of puerile contempt) was the
+               quietest, the clumsiest, and, as it seemed, the dullest of all Dr.
+               Swishtail’s young gentlemen. His parent was a grocer in the city: and it was
+               bruited abroad that he was admitted into Dr. Swishtail’s academy upon what
+               are called ‘mutual principles”—that is to say, the expenses of his board and
+               schooling were defrayed by his father in goods, not money; and he stood
+               there—almost at the bottom of the school—in his scraggy corduroys and
+               jacket, through the seams of which his great big bones were bursting—as the
+               representative of so many pounds of tea, candles, sugar, mottled-soap, plums
+               (of which a very mild proportion was supplied for the puddings of the
+               establishment), and other commodities. A dreadful day it was for young
+               Dobbin when one of the youngsters of the school, having run into the town
+               upon a poaching excursion for hardbake and polonies, espied the cart of
+               Dobbin &amp; Rudge, Grocers and Oilmen, Thames Street, London, at the
+               Doctor’s door, discharging a cargo of the wares in which the firm dealt.</p>
+            <p>  Young Dobbin had no peace after that. The jokes were frightful, and
+               merciless against him. “Hullo, Dobbin,” one wag would say, “here’s good news
+               in the paper. Sugars is ris’, my boy.” Another would set a sum—“If a pound
+               of mutton-candles cost sevenpence-halfpenny, how much must Dobbin cost?” and
+               a roar would follow from all the circle of young knaves, usher and all, who
+               rightly considered that the selling of goods by retail is a shameful and
+               infamous practice, meriting the contempt and scorn of all real
+               gentlemen.</p>
+            <p>  “Your father’s only a merchant, Osborne,” Dobbin said in private to the
+               little boy who had brought down the storm upon him. At which the latter
+               replied haughtily, “My father’s a gentleman, and keeps his carriage;” and
+               Mr. William Dobbin retreated to a remote outhouse in the playground, where
+               he passed a half-holiday in the bitterest sadness and woe. Who amongst us is
+               there that does not recollect similar hours of bitter, bitter childish
+               grief? Who feels injustice; who shrinks before a slight; who has a sense of
+               wrong so acute, and so glowing a gratitude for kindness, as a generous boy?
+               and how many of those gentle souls do you degrade, estrange, torture, for
+               the sake of a little loose arithmetic, and miserable dog-latin?</p>
+            <p>  Now, William Dobbin, from an incapacity to acquire the rudiments of the
+               above language, as they are propounded in that wonderful book the Eton Latin
+               Grammar, was compelled to remain among the very last of Doctor Swishtail’s
+               scholars, and was “taken down” continually by little fellows with pink faces
+               and pinafores when he marched up with the lower form, a giant amongst them,
+               with his downcast, stupefied look, his dog’s-eared primer, and his tight
+               corduroys. High and low, all made fun of him. They sewed up those corduroys,
+               tight as they were. They cut his bed-strings. They upset buckets and
+               benches, so that he might break his shins over them, which he never failed
+               to do. They sent him parcels, which, when opened, were found to contain the
+               paternal soap and candles. There was no little fellow but had his jeer and
+               joke at Dobbin; and he bore everything quite patiently, and was entirely
+               dumb and miserable.</p>
+            <p>  Cuff, on the contrary, was the great chief and dandy of the Swishtail
+               Seminary. He smuggled wine in. He fought the town-boys. Ponies used to come
+               for him to ride home on Saturdays. He had his top-boots in his room, in
+               which he used to hunt in the holidays. He had a gold repeater: and took
+               snuff like the doctor. He had been to the Opera, and knew the merits of the
+               principal actors, preferring Mr. Kean to Mr. Kemble. He could knock you off
+               forty Latin verses in an hour. He could make French poetry. What else didn’t
+               he know, or couldn’t he do? They said even the Doctor himself was afraid of
+               him.</p>
+            <p>  Cuff, the unquestioned king of the school, ruled over his subjects, and
+               bullied them, with splendid superiority. This one blacked his shoes: that
+               toasted his bread, others would fag out, and give him balls at cricket
+               during whole summer afternoons. “Figs” was the fellow whom he despised most,
+               and with whom, though always abusing him, and sneering at him, he scarcely
+               ever condescended to hold personal communication.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

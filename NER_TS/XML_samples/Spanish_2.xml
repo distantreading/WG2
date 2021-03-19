@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Juan Vulgar : edición ELTeC</title>
+           <author ref="viaf:35252653">Octavio Picón, Jacinto (1852-1923)</author>
+           <respStmt>
+              <resp>Edición ELTeC</resp>
+              <name>Borja Navarro Colorado</name>
+           </respStmt>
+        </titleStmt>
+        <extent>
+           <measure unit="words">31478</measure>
+        </extent>
+        <publicationStmt>
+           <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+           <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+           <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+        </publicationStmt>
+        <sourceDesc><bibl type="digitalSource">
+           José Calvo Tello
+           <ref target="https://github.com/cligs/conssa">Corpus of Novels of the Spanish Silver Age (CoNSSA)</ref>
+           <idno>ne0162</idno>
+           <pubPlace>University of Würzburg</pubPlace>
+           <date when="2020"/>
+        </bibl><bibl type="digitalSource">
+           <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+           <pubPlace>Universidad de Alicante</pubPlace>
+           <date when="2000">2000</date>
+           <ref target="http://www.cervantesvirtual.com/obra/lazaro-juan-vulgar--0/"/>
+        </bibl><bibl type="printSource">
+           <publisher>Renacimiento</publisher>
+           <pubPlace>Madrid</pubPlace>
+           <date when="1918">1918</date>
+        </bibl><bibl type="firstEdition">
+           <publisher> Estab. Tip. de El Correo</publisher>
+           <pubPlace>Madrid</pubPlace>
+           <date when="1885">1885</date>
+           <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000094383"/>
+        </bibl></sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="chapter" n="SPA3019002">
+            <head>- II -</head>
+            <p>Juan tenía más imaginación de la que conviene al hombre: <emph>la loca de la casa</emph>, dominaba imperiosamente en su espíritu. Nunca le parecieron, como a don Quijote, alcázares las ventas, ni tomó por princesas a las criadas de mesón; mas su fantasía, alterando las impresiones de la realidad, todo lo engrandecía y poetizaba. A cualquier mal hallaba remedio su esperanza; ningún bien era mezquino ante sus ojos; los ideales más lejanos le parecían fácilmente realizables; amaba el bien; y sentía la belleza por instinto; pero su imaginación se encargaba luego de exagerar lo bueno o agrandar lo bello; y su mente, considerándolo todo bajo el influjo de un optimismo engañador, se iba poblando de ideas falsas sobre el mundo y la vida. A todo pensamiento hermanaba algo de aspiración: el porvenir era para él un libro en que faltaba la palabra imposible.</p>
+            <p>Aquella predisposición a deleitarse fácilmente con lo hermoso y a sentirse atraído por lo bueno, se manifestó en Juan desde los primeros años de su juventud. En tanto que otros mozos del pueblo trabajaban con la frente sudorosa y la mano encallecida, él se abismaba contemplando los celajes de una puesta de sol, y a veces, más que el ver llenar las trojes de su padre, le entretenía observar si las enredaderas habían trepado bien en torno de una ventana.</p>
+            <p>Los grupos de gañanes y mozas que naturalmente se formaban en la recolección de la naranja, con sus fondos de boscaje verde y su brillante luz meridional, le encantaban por su aspecto artístico sin dejarle pensar cuánto producirla todo aquello; y si alguna vez oía de los sujetos al duro trabajo corporal una maldición o una queja, imaginaba que ha de venir un tiempo en que nadie reniegue de su suerte. Pero su fantasía, vigorosa al fingirse esperanzas, era indolente al concebir remedios; sin darse cuenta de ello, se asemejaba a esas plantas que viven del rocío y lo esperan lozanas, cual si estuviesen seguras de que no les ha de faltar nunca.</p>
+            <p>Aunque Madrid le puso luego más cerca del dolor, como tenía asegurada la existencia, fue en vano que sus ojos presenciaran lástimas y sus oídos escuchasen lamentos. Partió el tiempo entre el estudio y los placeres, y cuando su optimismo te ofreció en las ciencias alivio a todos los males de la tierra, hasta llegó a creer que el trabajo podría ser un goce. La humanidad le pareció la eterna desposada del progreso. Para él, existía entre el hombre y la esperanza un maridaje indisoluble.</p>
+            <p>A los tres años de haber salido del lugarejo en que nació creía tener ideas fijas.</p>
+            <p>Pasó en Madrid muchos meses sin contraer amistad con nadie. Sus paisanos, Martín Gonzalete y el hijo del tío Pipierno, llevaban una vida que hizo imposible toda intimidad. El primero estaba en amores con una mujer que no le dejaba nunca libre y el segundo pegado como un parásito a un señorito rico y muy bruto, que se aficionó a él por lo entendido en cosas de caballos. El señorito rico elegantizó al Pipierno, y éste instruyó en lo caballar a su protector.</p>
+            <p>Vino, por fin, una época en que Juan comenzó a tener amigos. Un día, en cátedra de derecho romano, como hubiese faltado dos mañanas a clase, se atrevió a pedir prestados los apuntes de la explicación al compañero que tenía al lado. En realidad, aunque necesitaba los apuntes, también le movió a pedírselos a aquel condiscípulo y no a otro de los que cerca de él se sentaban, el haber observado una cosa que no acertaba a explicarse. Pepe Villena, que este era su nombre, tomaba los apuntes escribiendo renglones muy estrechos, y Juan quería saber a qué obedecía tal rareza.</p>
+            <p>-Advierto a usted -le dijo Villena al darle el cuaderno- que aquí faltará mucho... Yo tomo los apuntes en verso.</p>
+            <p>Era verdad. La manumisión, las justas nupcias, el tratado de testamentos, la patria potestad, estaban puestos en romances y en redondillas. Pepe Villena no tenía afición a la carrera de Derecho; la seguía por dar gusto a su familia y procuraba de aquel modo distraerse en clase y ejercitarse en la versificación, para la cual mostraba, excepcionales condiciones.</p>
+            <p>Juan, que había ya leído a Espronceda, a Bécquer y a Bernardo López García, los tres poetas favoritos, y no sin razón, de los estudiantes españoles, formó excelente idea de Villena; y, sobre todo, cuando supo que publicaba poesías en varios semanarios y que habían admitido un drama suyo en el <emph>Teatro de la Risa</emph>, creyó tener un amigo ilustre. Púsole luego Villena en contacto con otros condiscípulos, y de allí a pocas semanas Juan dejó de andar solo por los claustros de la Universidad. Como no le faltaba ya con quién hablar, asistía más temprano a clase, para estarse un rato en la puerta de la calle Ancha charlando con los amigos y requebrando a las muchachas; al salir, solía ir con ellos a una pastelería de la calle del Pez, donde por turno se convidaban a bizcochos borrachos; y cuando había dinero para más, solían jugar al billar en la travesía de las Pozas.</p>
+            <p>Los amigos de Pepe Villena lo fueron siendo rápidamente de Juan y al llegar las últimas semanas de aquel curso, en esa época en que los estudiantes se emparejan para repasar juntos, resultó que era ya íntimo de media docena de compañeros.</p>
+            <p>A primera hora de la noche acudían a un café de la calle de la Luna, donde con la mayor tolerancia saboreaban el brebaje que les hacían tomar por moka: después se iban encerrando en sus casas de dos en dos, para dominar tal o cual asignatura con el programa a la vista; y ya muy tarde, unos se acostaban y otros se marchaban a sus pupilajes, hartos de leyes, fechas, nombres latinos y pareceres de comentaristas.</p>
+            <p>En el café citado costaba el brebaje real y medio, que con el medio de la propina ascendía a media peseta; pero era tan malo, que cada sorbo daba un disgusto. Pedro Urgell, el mejor amigo de cuantos tenía Villena, dijo varias veces:</p>
+         </div>
+      </body>
+  </text>
+</TEI>

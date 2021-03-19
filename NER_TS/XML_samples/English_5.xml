@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>The Channings : ELTeC edition</title>
+               <author ref="viaf:14898332">Wood, Ellen (1814-1887)</author>
+               <respStmt>
+                  <resp>Text file produced by </resp>
+                  <name>Jonathan Ingram</name>
+                  <name>Charlie Kirschner</name>
+                  <name>Distributed Proofreading Team</name>
+               </respStmt>
+               <respStmt>
+                  <resp>HTML file produced by</resp>
+                  <name>David Widger </name>
+               </respStmt>
+               <respStmt>
+                  <resp>ELTeC conversion</resp>
+                  <name>Lou Burnard</name>
+               </respStmt>
+            </titleStmt>
+            <extent>
+               <measure unit="words">199639</measure>
+            </extent>
+            <publicationStmt>
+               <publisher ref="https://distant-reading.net">COST Action "Distant Reading for
+                  European Literary History" (CA16204)</publisher>
+               <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
+               <date when="2019-11-09"/>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+               </availability>
+               <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
+               
+            </publicationStmt>
+            <sourceDesc>
+               <bibl type="digitalSource"><title>The Project Gutenberg EBook of The
+                  Channings</title>
+                  <author>Mrs. Henry Wood</author>
+                  <ref target="http://www.gutenberg.org/9/1/9/9192/">PG source</ref>
+                  <idno type="PG">9192</idno>
+               </bibl>
+               <bibl type="printSource"><title>The Channings</title><author>Mrs Henry
+                  Wood</author>
+                  <publisher>London: Bentley</publisher><date>1862</date></bibl>
+            </sourceDesc>
+         </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="chapter">
+            <head>CHAPTER I. — THE INKED SURPLICE.</head>
+            <p>The sweet bells of Helstonleigh Cathedral were ringing out in the summer’s
+               afternoon. Groups of people lined the streets, in greater number than the
+               ordinary business of the day would have brought forth; some pacing with
+               idle steps, some halting to talk with one another, some looking in silence
+               towards a certain point, as far as the eye could reach; all waiting in
+               expectation.</p>
+            <p>It was the first day of Helstonleigh Assizes; that is, the day on which the
+               courts of law began their sittings. Generally speaking, the commission was
+               opened at Helstonleigh on a Saturday; but for some convenience in the
+               arrangements of the circuit, it was fixed this time for Wednesday; and when
+               those cathedral bells burst forth, they gave signal that the judges had
+               arrived and were entering the sheriff’s carriage, which had gone out to
+               meet them.</p>
+            <p>A fine sight, carrying in it much of majesty, was the procession, as it
+               passed through the streets with its slow and stately steps; and although
+               Helstonleigh saw it twice a year, it looked at it with gratified eyes
+               still, and made the day into a sort of holiday. The trumpeters rode first,
+               blowing the proud note of advance, and the long line of well-mounted
+               javelin men came next, two abreast; their attire that of the livery of the
+               high sheriff’s family, and their javelins held in rest. Sundry officials
+               followed, and the governor of the county gaol sat in an open carriage, his
+               long white wand raised in the air. Then appeared the handsome, closed
+               equipage of the sheriff, its four horses, caparisoned with silver, pawing
+               the ground, for they chafed at the slow pace to which they were restrained.
+               In it, in their scarlet robes and flowing wigs, carrying awe to many a
+               young spectator, sat the judges. The high sheriff sat opposite to them, his
+               chaplain by his side, in his gown and bands. A crowd of gentlemen, friends
+               of the sheriff, followed on horseback; and a mob of ragamuffins brought up
+               the rear.</p>
+            <p>To the assize courts the procession took its way, and there the short
+               business of opening the commission was gone through, when the judges
+               re-entered the carriage to proceed to the cathedral, having been joined by
+               the mayor and corporation. The sweet bells of Helstonleigh were still
+               ringing out, not to welcome the judges to the city now, but as an
+               invitation to them to come and worship God. Within the grand entrance of
+               the cathedral, waiting to receive the judges, stood the Dean of
+               Helstonleigh, two or three of the chapter, two of the minor canons, and the
+               king’s scholars and choristers, all in their white robes. The bells ceased;
+               the fine organ pealed out—and there are few finer organs in England than
+               that of Helstonleigh—the vergers with their silver maces, and the decrepit
+               old bedesmen in their black gowns, led the way to the choir, the long
+               scarlet trains of the judges held up behind: and places were found for
+               all.</p>
+            <p>The Rev. John Pye began the service; it was his week for chanting. He was one
+               of the senior minor canons, and head-master of the college school. At the
+               desk opposite to him sat the Rev. William Yorke, a young man who had only
+               just gained his minor canonry.</p>
+            <p>The service went on smoothly until the commencement of the anthem. In one
+               sense it went on smoothly to the end, for no person present, not even the
+               judges themselves, could see that anything was wrong. Mr. Pye was what was
+               called “chanter” to the cathedral, which meant that it was he who had the
+               privilege of selecting the music for the chants and other portions of the
+               service, when the dean did not do so himself. The anthem he had put up for
+               this occasion was a very good one, taken from the Psalms of David. It
+               commenced with a treble solo; it was, moreover, an especial favourite of
+               Mr. Pye’s; and he complacently disposed himself to listen.</p>
+            <p>But no sooner was the symphony over, no sooner had the first notes of the
+               chorister sounded on Mr. Pye’s ear, than his face slightly flushed, and he
+               lifted his head with a sharp, quick gesture. <hi rend="italic">That</hi>
+               was not the voice which ought to have sung this fine anthem; that was a
+               cracked, <hi rend="italic">passée</hi> voice, belonging to the senior
+               chorister, a young gentleman of seventeen, who was going out of the choir
+               at Michaelmas. He had done good service for the choir in his day, but his
+               voice was breaking now; and the last time he had attempted a solo, the
+               bishop (who interfered most rarely with the executive of the cathedral;
+               and, indeed, it was not his province to do so) had spoken himself to Mr.
+               Pye on the conclusion of the service, and said the boy ought not to be
+               allowed to sing alone again.</p>
+            <p>Mr. Pye bent his head forward to catch a glimpse of the choristers, five of
+               whom sat on his side of the choir, the <hi rend="italic">decani</hi>; five
+               on the opposite, or <hi rend="italic">cantori</hi> side. So far as he could
+               see, the boy, Stephen Bywater, who ought to have taken the anthem, was not
+               in his place. There appeared to be only four of them; but the senior boy
+               with his clean, starched surplice, partially hid those below him. Mr. Pye
+               wondered where his eyes could have been, not to have noticed the boy’s
+               absence when they had all been gathered round the entrance, waiting for the
+               judges.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

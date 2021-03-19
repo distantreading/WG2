@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Vanity Fair: A Novel without a Hero: ELTeC edition</title>
+           <author ref="https://viaf.org/viaf/95208604/">Thackeray, William Makepeace (1811-1863)</author>
+        </titleStmt>
+        <extent>
+           <measure unit="words">298740</measure>
+        </extent>
+        <publicationStmt>
+           <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+           <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+           <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+        </publicationStmt>
+        <sourceDesc><bibl type="digitalSource"><author>Thackeray, William Makepeace</author>
+           <title>Vanity Fair, A Novel without a Hero. Vols. V &amp; VI</title>
+           <title level="s">Harvard Classics Shelf of Fiction.</title>
+           <publisher>New York: P.F. Collier &amp; Son, 1917</publisher>
+           <publisher>Bartleby.com, 2000.</publisher>
+           <ref target="http://www.bartleby.com/305/">Bartleby</ref></bibl>
+           <bibl type="firstEdition" n="B7155">
+              <author>W. M. Thackeray</author>
+              <title>Vanity Fair: A Novel without a Hero</title>
+              <publisher>London: Bradbury and Evans</publisher>
+              <date>1848</date>
+              <ref target="http://dbooks.bodleian.ox.ac.uk/books/PDFs/590972833.pdf"/>
+           </bibl></sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="chapter">
+            <head>I. Chiswick Mall</head>
+            <p>WHILE the present century was in its teens, and on one sunshiny morning in
+               June, there drove up to the great iron gate of Miss Pinkerton’s academy for
+               young ladies, on Chiswick Mall, a large family coach, with two fat horses in
+               blazing harness, driven by a fat coachman in a three-cornered hat and wig,
+               at the rate of four miles an hour. A black servant, who reposed on the box
+               beside the fat coachman, uncurled his bandy legs as soon as the equipage
+               drew up opposite Miss Pinkerton’s shining brass plate, and as he pulled the
+               bell, at least a score of young heads were seen peering out of the narrow
+               windows of the stately old brick house. Nay, the acute observer might have
+               recognized the little red nose of good-natured Miss Jemima Pinkerton
+               herself, rising over some geranium-pots in the window of that lady’s own
+               drawing-room.</p>
+            <p>  “It is Mrs. Sedley’s coach, sister,” said Miss Jemima “Sambo, the black
+               servant, has just rung the bell; and the coachman has a new red
+               waistcoat.”</p>
+            <p>  “Have you completed all the necessary preparations incident to Miss
+               Sedley’s departure, Miss Jemima?” asked Miss Pinkerton herself, that
+               majestic lady; the Semiramis of Hammersmith, the friend of Doctor Johnson,
+               the correspondent of Mrs. Chapone herself.</p>
+            <p>  “The girls were up at four this morning, packing her trunks, sister,”
+               replied Miss Jemima; “we have made her a bow-pot.”</p>
+            <p>  “Say a bouquet, sister Jemima, ’tis more genteel.”</p>
+            <p>  “Well, a booky as big almost as a hay-stack; I have put up two bottles of
+               the gillyflower-water for Mrs. Sedley, and the receipt for making it, in
+               Amelia’s box.”</p>
+            <p>  “And I trust, Miss Jemima, you have made a copy of Miss Sedley’s account.
+               This is it, is it? Very good—ninety-three pounds, four shillings. Be kind
+               enough to address it to John Sedley, Esquire, and to seal this billet which
+               I have written to his lady.”</p>
+            <p>  In Miss Jemima’s eyes an autograph letter of her sister, Miss Pinkerton,
+               was an object of as deep veneration as would have been a letter from a
+               sovereign. Only when her pupils quitted the establishment, or when they were
+               about to be married, and once, when poor Miss Birch died of the scarlet
+               fever, was Miss Pinkerton known to write personally to the parents of her
+               pupils; and it was Jemima’s opinion that if anything <hi>could</hi> console
+               Mrs. Birch for her daughter’s loss, it would be that pious and eloquent
+               composition in which Miss Pinkerton announced the event.</p>
+            <p>  In the present instance Miss Pinkerton’s “billet” was to the following
+               effect:— <quote><p>  “MADAM—After her six years’ residence at the Mall, I
+                  have the honour and happiness of presenting Miss Amelia Sedley to
+                  her parents, as a young lady not unworthy to occupy a fitting
+                  position in their polished and refined circle. Those virtues which
+                  characterise the young English gentlewoman, those accomplishments
+                  which become her birth and station, will not be found wanting in the
+                  amiable Miss Sedley, whose <hi>industry</hi> and <hi>obedience</hi>
+                  have endeared her to her instructors, and whose delightful sweetness
+                  of temper has charmed her <hi>aged</hi> and her <hi>youthful</hi>
+                  companions.</p><p>  “In music, in dancing, in orthography, in every
+                     variety of embroidery and needle-work, she will be found to have
+                     realised her friends’ <hi>fondest wishes.</hi> In geography there is
+                     still much to be desired; and a careful and undeviating use of the
+                     backboard, for four hours daily during the next three years, is
+                     recommended as necessary to the acquirement of that dignified
+                     <hi>deportment and carriage,</hi> so requisite for every young
+                     lady of <hi>fashion.</hi></p><p>  “In the principles of religion and
+                        morality, Miss Sedley will be found worthy of an establishment which
+                        has been honoured by the presence of <hi>The Great
+                           Lexicographer,</hi> and the patronage of the admirable Mrs.
+                        Chapone. In leaving the Mall, Miss Amelia carries with her the
+                        hearts of her companions, and the affectionate regards of her
+                        mistress, who has the honour to subscribe
+                        herself,</p><p>  “P.S.—Miss Sharp accompanies Miss Sedley. It is
+                           particularly requested that Miss Sharp’s stay in Russell Square may
+                           not exceed ten days. The family of distinction with whom she is
+                           engaged, desire to avail themselves of her services as soon as
+                           possible.”</p></quote></p>
+            <p>  This letter completed, Miss Pinkerton proceeded to write her own name, and
+               Miss Sedley’s, in the fly-leaf of a Johnson’s Dictionary—the interesting
+               work which she invariably presented to her scholars, on their departure from
+               the Mall. On the cover was inserted a copy of “Lines addressed to a young
+               lady on quitting Miss Pinkerton’s school, at the Mall; by the late revered
+               Doctor Samuel Johnson.” In fact, the Lexicographer’s name was always on the
+               lips of this majestic woman, and a visit he had paid to her was the cause of
+               her reputation and her fortune.</p>
+            <p>  Being commanded by her elder sister to get “the Dictionary” from the
+               cupboard, Miss Jemima had extracted two copies of the book from the
+               receptacle in question. When Miss Pinkerton had finished the inscription in
+               the first, Jemima, with rather a dubious and timid air, handed her the
+               second.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

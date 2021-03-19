@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+     <teiHeader>
+        <fileDesc>
+           <titleStmt>
+              <title>Le château de Pinon I: ELTeC edition</title>
+              <!-- Alternative title for the same text: "Le Salon du diable" -->
+              <author ref="viaf:102278">Comtesse Dash [Gabrielle Anna de Cisternes de Courtiras, vicomtesse de Saint-Mars] (1804-1872)</author>
+              <respStmt>
+                 <resp>encoded by</resp>
+                 <name>Pia Geißel</name>
+              </respStmt>
+              <respStmt>
+                 <resp>Original data capture</resp>
+                 <name>Bibliothèque nationale de France, département Littérature et art,  Y2-25681</name>
+              </respStmt>
+           </titleStmt>
+           <extent>
+              <measure unit="words">44767</measure>
+              <measure unit="pages">332</measure>
+              <measure unit="vols">2</measure>
+           </extent>
+           <publicationStmt>
+              <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+              <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
+              <date when="2019-11-04"/>
+              <availability>
+                 <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+              </availability>
+              <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
+              <!--First ElTeC edition 2019-09-25 -->
+           </publicationStmt>
+           <sourceDesc>
+              <bibl type="printSource">
+                 <title>Le château de Pinon I</title>
+                 <author>Comtesse Dash</author>
+                 <publisher>Desessart 22, RUE DES GRANDS-AUGUSTINS</publisher>
+                 <pubPlace>Paris</pubPlace>
+                 <!-- Gallica entered wrong date. Original date for print source according to scan: 1843 -->
+                 <date>1844</date>
+              </bibl>
+              <bibl type="digitalSource">
+                 <title>Le château de Pinon. VOL 1: Gallica edition</title>
+                 <author>Comptesse Dash</author>
+                 <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k54963878"/>
+                 <date>2009-24-02</date>
+              </bibl>
+              <bibl type="firstEdition">
+                 <!-- best guess -->
+                 <date>1843</date>
+              </bibl>
+           </sourceDesc>
+        </fileDesc>
+     </teiHeader>
+  
+  <text>
+      <body>
+         <div type="chapter">
+            <head>VI</head>
+            <head>VISION.</head>
+            <p>Le château d'Anizy, situé à un quart de lieue de celui de Pinon, appartenait auxévêques de Laon. Le cardinal d'Estrées, qui l'habitait alors, était un desconvives les plus assidus de madame de Lameth. Il excellait dans la galanterie ,malgré son rochet et son camail, et il ne cessait de vanter les charmes de labelle châtelaine.</p>
+            <p>Anizy est un vieux manoir, dont il était déjà question en 496. Il fut donné auxévêques en 500, lorsque saint Rémi érigea l'évêché de Laon. Plusieurs fois lebourg d'Anizy figura dans nos guerres civiles, comme appartenant à l'un oul'autre parti ; enfin , en 1540, le cardinal de Bourbon fit construire lechâteau, dont une portion existe encore aujourd'hui. C'était une desmagnificences de la province que ce superbe monument, où plusieurs de nos rois,entr'autres François Ier, avaient reçu l'hospitalité. Les évêques de Laon ypassaient presque toujours la belle saison, et le voisinage de Pinon n'était pasun des moindres agréments qu'ils y trouvaient.</p>
+            <p>Le cardinal d'Estrées avait connu le comte de Bussy à la cour, mais il n'avaitpas été témoin de la brillante apparition qu'y avait faite mademoiselle de Roucy; par une espèce d'accord tacite, ils ne parlaient jamais de ces circonstances.</p>
+            <p>Le cardinal était homme de trop bon goût pour ne pas comprendre que MM. deLameth devaient fuir cette conversation, et peut-être d'ailleurs ignorait-iljusqu'à quel point les relations d'Henriette et du marquis d'Albret avaient étépoussées. Ce bruit n'avait eu qu'un très faible écho en Picardie. Les relationsentre les provinces et la capitale n'étaient pas alors ce qu'elles sontaujourd'hui. Peu de personnes voyageaient et il était très rare qu'une anecdotese répandit en dehors du cercle où elle s'était passée.</p>
+            <p>Dans l'été de 1774 , le cardinal d'Estrée s'établit tout à fait à Anizy et ytint un grand état. Il y recevait tous les étrangers de distinction et les hôtesdes seigneurs de Pinon devenaient bientôt les siens. Il y eut une grande chassedans la forêt de Prémontré. Les moines et le père abbé en tête reçurent leprélat, qui venait prendre ce plaisir dans leurs domaines, accompagné de labelle madame de Lameth et d'une foule d'autres personnes de distinction.</p>
+            <p>La journée était superbe ; on tua un sanglier et plusieurs chevreuils, quifurent distribués aux assistants.</p>
+            <p>— Monseigneur, dit madame de Lameth au cardinal, votre Éminehce a donc choisi lesanglier ?</p>
+            <p>— Certainement, madame la comtesse, et je vous demanderai la permissiou de vouseh offrir une portion.</p>
+            <p>— Pourquoi faire ? hors la hure cela ne se mange pas.</p>
+            <p>— C'est au contraire une des meilleures venaisons possibles, lorsqu'elle estbien accommodée.</p>
+            <p>— Je ne m'en doutais guère.</p>
+            <p>— Eh bien ! madame la comtesse, je vous en ferai goûter à Anizy, ne levoulez-vous pas ?</p>
+            <p>— Je me risque sur la parole de votre Éminence, mais j'ai bien peur que ce nesoit un triste ragoût.</p>
+            <p>Toutes les personnes présentes furent également engagées, et on décida que lefestin aurait lieu le dimanche de la semaine suivante.</p>
+            <p>A quelques jours de là, il arriva une lettre de l'évèque. Il rappelaitl'invitation, en ajoutant qu'il lui était survenu deux seigneurs de la Cour, oupour mieux dire de l'armée, et qu'il serait très fier de leur montrer lamerveille de la province.</p>
+            <p>— Monsieur, dit la comtesse à son mari, vous donnerez des ordres afin que nou sayons ce jour-là notre grand équipage, n'est-il pas vrai?</p>
+            <p>— Le plus beau, Madame, je vous le promets, répondit le comte en souriant, etvous ferez, j'espère, une resplendissante toilette; il ne faut pas qu'ilspuissent dire à la Cour que vous n'êtes plus la belle Picarde.</p>
+            <p>— N'irons-nous pas bientôt à la Cour, monsieur le comte ?</p>
+            <p>— L'année prochaine, j'espère, répliqua-t-il d'un air embarrassé. Maisn'êtes-vous donc pas bien ici ?</p>
+            <p>— A merveille ; pourtant</p>
+            <p>— Pourtant, vous trouvez qu'il faut un plus grand théâtre à votre coquetterie,n'est-ce pas, Madame? reprit le comte de Bussy, qui avait écouté jusque-là laconversation en silence.</p>
+            <p>—Encore! Monsieur, s'écria-t-elle.</p>
+            <p>— Je ne comprends pas la passion aveugle de mon fils qui vous laisse courir àvotre perte, et qui ne vous arrête pas sur le bord du précipice.</p>
+            <p>— Je ne crois pas qu'il y ait dans tout cela le moindre précipice, Monsieur.</p>
+            <p>—Il y a un abîme, Madame ; vous jouez avec l'amour, et vous vous y prendrez unjour. Ici, le danger est moins grand garce que les séductions sont moinspuissantes, mais à la Cour ! Vous avez donc oublié le passé, Madame ?</p>
+            <p>— Ne me le rappelez pas, au nom du ciel! s'écria-t-elle en cachant sa tête dansses mains.</p>
+            <p>— Mon père, interrompit le jeune comte, pourquoi réveiller des souvenirs éteints? Du reste, soyez tranquille, je vois et je sais tout ce qui se passe ; jeveille à notre honneur et si jamais quelqu'un y portait atteinte, fiez-vous àmoi pour le venger.</p>
+            <p>La conversation en resta là.</p>
+            <p>Henriette ne fut plus occupée que de sa toilette pour le grand jour. Ellechercha de nouvelles parures. Louison, qui partageait ses travaux decoquetterie, après avoir examiné l'un après l'autre tous les bijoux de sonécrin, lui montra une branche de houx qu'elle n'avait pas osé porter encore,quoiqu'elle lui eût été donnée par son père en cadeau de noces.</p>
+            <p>— Vous avez été proclamée la plus belle à la plus belle des cours avec unebranche de houx de nos bois, avait-il ajouté, je veux que celle-ci Vous rendeplus belle encore.</p>
+            <p>Le pauvre père crut trouver une idée des plus délicates, pourtant elle ne plutpas aux seigneurs de Lameth, qui se donnèrent de garde d'en rien dire. Henriettele devina, et elle ne se coiffa jamais avec ce bijou.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

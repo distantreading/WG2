@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Ioan Tunsu: ediție HAIRO</title>
+           <author>Panait MACRI</author>
+           <respStmt>
+              <resp>OCRizat de</resp>
+              <name>Roxana Patraș</name>
+           </respStmt>
+           <respStmt>
+              <resp>Corectat și anotat TEI de</resp>
+              <name>Ioana Galleron</name>
+           </respStmt>
+           <principal>
+              <name>Patraș, Roxana</name>
+              <name>Galleron, Ioana</name>
+           </principal>
+        </titleStmt>
+        <extent>
+           <measure unit="words"></measure>
+           <measure unit="pages"></measure>
+        </extent>
+        <publicationStmt>
+           <publisher>Proiect HAIRO (U. "Alexandru Ioan Cuza"/ U. Sorbonne-Nouvelle)</publisher>
+           <pubPlace>Iași</pubPlace>
+           <pubPlace>Paris</pubPlace>
+           <date>2020</date>
+           <availability>
+              <licence target="https://creativecommons.org/licenses/by-nc/4.0/legalcode.ro">Distributed
+                 under a Creative Commons Attribution-NonCommercial 4.0 Unported License</licence>
+           </availability>
+           <idno type="handle">11280/a6ee1404</idno>
+           <distributor>NAKALA
+              <ref>www.nakala.fr</ref>
+           </distributor>
+        </publicationStmt>
+        <sourceDesc>
+           <bibl>
+              <author>MACRI Panait</author>
+              <title>Ioan Tunsu, căpitan de haiduci</title>
+              <pubPlace>Bucuresti</pubPlace>
+              <publisher>Cultura Românească, Institut de editură, arte grafice și confecțiuni din hârtie</publisher>
+              <date>1927</date>
+           </bibl>
+        </sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="chapter" n="2">
+            <head>Prima încercare a lui Tunsu.</head>
+            <p>Era anul 1825. Într'una din nopțile întunecoase ale iernei, într’o chiliuță dela biserica Sf. Gheorghe cel vechi, un om se vedea trântit pe un pat și cânta încet mai multe imnuri bisericești.</p>
+            <pb n="22" source="20"/>
+            <p>Acest personaj cu o înfățișare destul de impunătoare, cu vocea sonoră și cu privirea mai mult cruntă decât dulce, nu era altul decât Ioan Tunsu. Se zice că lui i s’a dat acest nume pentru că, fiind paracliser, contrar tuturor celorlalți paracliseri, purta părul scurt de tot.</p>
+            <p>Ioniță Tunsu își urmă mai mult timp cântecile sale bisericești, apoi se sculă deodată în picioare, își lovi fruntea cu mâna și zise :</p>
+            <p>— Neghiob ce sunt.</p>
+            <p>După aceea se îmbrăcă iute, și deși era trecut de  miezul nopții, eși afară și plecă pe o stradă tăcută și întunecoasă.</p>
+            <p>După câteva minute coti pe altă stradă, trecu apoi în alta și în fine se opri lângă o căsuță mică.</p>
+            <p>Aici, bătu de trei ori la ușă.</p>
+            <p>Atunci se aprinse lumânarea și o femee veni să-i deschidă.</p>
+            <p>Ea era de o frumusețe răpitoare și când îl văzu, un fel de bucurie tainică se manifesta în sufletul ei.</p>
+            <p>— Bine ai venit, Ioniță, zise ea, te-am așteptat până la 11 și gândind că nu vei mai veni, m’am culcat.</p>
+            <p>— In adevăr, noaptea aceasta e atât de frumoasă încât era pe aci să nu mai vin ; dragostea ta însă e mai mare și decât furtuna și decât zăpada care cade cu atâta furie și decât orice primejdie de pe pământ.</p>
+            <p>— A sta o noapte despărțit de tine, este cea mai mare durere pentru mine.</p>
+            <p>Vai ! continuă ea, și cu toate astea noi trebue să ne despărțim !</p>
+            <p>— Ce vorbești tu Ileano ! o întrerupse paracliserul.</p>
+            <pb n="23" source="21"/>
+            <p>— Stai colea pe pat și ascultă :</p>
+            <p>Tunsu se supuse.</p>
+            <p>— Alaltă-eri, a sosit tata dela Râmnicul-Vâlcei. La început venirea lui m’a bucurat mult, nu m’a întristat însă mai puțin când mi-a adus trista veste.</p>
+            <p>— Și ce veste?</p>
+            <p>— Copila mea, mi-a zis, peste 7 zile voi veni ca să te iau în Râmnic, acolo am găsit un om de toată isprava cu care te vei putea cununa. Iată așa dar, avem încă cinci zile și noi trebue să ne despărțim. Cine știe când ne vom mai putea vedea.</p>
+            <p>— Tu să te desparți de mine ! răcni Tunsu paracliserul, nu, asta nu se poate niciodată. Eu te iubesc și o dată cu capul nu voi lăsa să te desparți de mine.</p>
+            <p>— Hei, dragul meu, așa este, nici eu n’aș voi ca să ne despărțim, dar ce putem face ?</p>
+            <p>— Ce să facem?</p>
+            <p>— Da, noi nu putem face nimic, căci știu bine că tata ar fi în stare să mă omoare când ar vedea că voiu să-i calc voința.</p>
+            <p>— Ileano ! tu niciodată nu te vei despărți de mine.</p>
+            <p>Și aceste cuvinte ale lui Ioniță fură pronunțate cu atâta durere în cât sărmana Ileana remase uimită.</p>
+            <p>— Mă iubește el oare așa de mult ! își zise ea în sine.</p>
+            <p>— Ileano ! continuă el, dacă noi am avea o avere nu-i așa că te-ai învoi să plecăm amândoi fără a mai da nimeni de urma noastră ?</p>
+            <p>— Ași fugi Ioniță, ași fugi bucuroasă, căci și tu știi cât de mult te iubesc.</p>
+            <p>— Când va veni tatăl tău ?</p>
+            <pb n="24" source="22"/>
+            <p>— Peste cinci zile ; tata întotdeauna se ține de vorbă.</p>
+            <p>— Bine.</p>
+            <p>Și zicând aceste cuvinte își luă pălăria, își sărută amanta și eși afară.</p>
+            <p>In zadar se încercă frumoasa Ileana să-l reție. Tunsu era neinduplecat. El plecă lăsând pe draga inimei sale în cea mai mare nedumerire și groază.</p>
+            <p>Dar unde se ducea oare paracliserul nostru !</p>
+            <p>El o luă tot pe acele strade pe care venise și după cât-va timp se opri lângă chiliuța lui.</p>
+            <p>Intră înăuntru, trase un săltar de la o masă unsuroasă și de aici ridică un teanc de chei.</p>
+            <p>— Cu ele voi deschide ușile bisericei, și odată intrat înăuntru apoi știu eu ce voi face.</p>
+            <p>Zicând aceste cuvinte, eși afară, se îndreptă către poarta bisericei și cu ajutorul unei chei o deschise imediat.</p>
+            <p>Dacă cum-va mâine, preotul va înțelege că-i lipsesc obiecte din biserică, nu mă va putea bănui căci cheile bisericei sunt la dânsu ; cheile pe care le am eu acum sunt perdute de popa celalt, care a murit ; Dumnezeu să-i erte : el le perduse și eu găsindu-le, de și nu îmi închipuiam niciodată, că o să-mi trebuiască, m’am gândit cu toate astea, că ar fi mai bine să le păstrez la mine. De atunci sunt doi ani și făcându-se alte chei pentru biserică, acestea au rămas cu totul uitate.</p>
+            <p>Astfel vorbind în sine, Ioan Tunsu făcu încă câți-va pași în interiorul bisericei.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

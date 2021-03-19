@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Ioan Tunsu: ediție HAIRO</title>
+           <author>Panait MACRI</author>
+           <respStmt>
+              <resp>OCRizat de</resp>
+              <name>Roxana Patraș</name>
+           </respStmt>
+           <respStmt>
+              <resp>Corectat și anotat TEI de</resp>
+              <name>Ioana Galleron</name>
+           </respStmt>
+           <principal>
+              <name>Patraș, Roxana</name>
+              <name>Galleron, Ioana</name>
+           </principal>
+        </titleStmt>
+        <extent>
+           <measure unit="words"></measure>
+           <measure unit="pages"></measure>
+        </extent>
+        <publicationStmt>
+           <publisher>Proiect HAIRO (U. "Alexandru Ioan Cuza"/ U. Sorbonne-Nouvelle)</publisher>
+           <pubPlace>Iași</pubPlace>
+           <pubPlace>Paris</pubPlace>
+           <date>2020</date>
+           <availability>
+              <licence target="https://creativecommons.org/licenses/by-nc/4.0/legalcode.ro">Distributed
+                 under a Creative Commons Attribution-NonCommercial 4.0 Unported License</licence>
+           </availability>
+           <idno type="handle">11280/a6ee1404</idno>
+           <distributor>NAKALA
+              <ref>www.nakala.fr</ref>
+           </distributor>
+        </publicationStmt>
+        <sourceDesc>
+           <bibl>
+              <author>MACRI Panait</author>
+              <title>Ioan Tunsu, căpitan de haiduci</title>
+              <pubPlace>Bucuresti</pubPlace>
+              <publisher>Cultura Românească, Institut de editură, arte grafice și confecțiuni din hârtie</publisher>
+              <date>1927</date>
+           </bibl>
+        </sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="chapter" n="6">
+            <head>Prinderea lui Andronachi.</head>
+            <p>Erau orele zece trecute, soarele lumina cu putere când o trăsură trasă de patru cai viguroși înainta prin mijlocul desei păduri.</p>
+            <p>In acea trăsură se vedea stând pe o perină de puf, un ciocoi fanariot cu numele de Andronachi. El era mai mult bătrân și ținând în mână un ciubuc lung trăgea din când în când fumul pe care îl arunca în valuri.</p>
+            <p>Andronachi era aprofundat în gânduri, cine știe unde se gândia !</p>
+            <p>Deodată insă se auzi o voce resunătoare care strigă :</p>
+            <p>— Stăi !</p>
+            <p>Vocea fu însoțită de o detunătură de pistol și vizitiul după capra căzu la pământ scăldându-se în sângele său.</p>
+            <p>Andronachi se uită să vază ce este, ce potop al lui Dumnezeu s’a coborât peste trăsura sa, când deodată se pomeni cu o mână puternică care îl apucă de pept și-l trânti din trăsura jos.</p>
+            <p>— Cunoști tu pe Tunsu ? zise acel care îl ținea încă strâns și care omorâse pe vizitiul fanariotului.</p>
+            <p>— Nu, respunse el.</p>
+            <p>— Află atunci că eu sunt acela.</p>
+            <p>— Si ce vrei dela mine?</p>
+            <pb n="55" source="53"/>
+            <p>— Pentru asta vom vorbi mai pe urmă.</p>
+            <p>Și zicând aceste cuvinte făcu semn la doi haiduci, cari luară numai decât pe ciocoiul Andronachi și-l duseră în mijlocul pădurei unde benchetuiau și cântau ceilalți haiduci.</p>
+            <p>— Ce ești tu ? îl întrebă atunci Tunsu.</p>
+            <p>— Român, răspunse el, care înțelese numai decât că se află în mijlocul unei bande de haiduci.</p>
+            <p>— Minți ! strigară câți-va dintre voinici.</p>
+            <p>— Nu minți deloc, zise Andronachi, m’am născut în această țara și prin urmare sunt fiul ei.</p>
+            <p>— Asta nu e de ajuns, pronunță Tunsu. Șarpele născut în mijlocul altor animale, tocmai pe tovarășii săi mușcă mai întâi.</p>
+            <p>— De voiți să vă vorbesc adevărul, apoi tatăl meu a fost în adevăr grec, mama însă era româncă.</p>
+            <p>— Băeți, zise Tunsu la câți-va dintre haiduci, ia căutați pe acest musafir, să vedeți ce are prin buzunare.</p>
+            <p>Nichifor băgă mâna în buzunarul ciocoiului și scoase o pungă.</p>
+            <p>— Câți bani ai într'însa ? întrebă Tunsu.</p>
+            <p>— Trei sute lire otomane, respunse Andronachi.</p>
+            <p>— Bine, până la 1.500 mai trebuesc încă o mie două sute ; dă și acești bani și vei fi scăpat, iar alminteri vei muri.</p>
+            <p>— Dar eu n’am nici o para mai mult.</p>
+            <p>— Nu-i nimic, ai acasă.</p>
+            <p>Andronachi se înveseli.</p>
+            <p>— Da, acasă am, dați-mi drumul să mă întorc acasă și vă făgăduesc că vă voi aduce și banii ceilalți pe cari mi-i cereți.</p>
+            <pb n="56" source="54"/>
+            <p>— Tot fanariot, tot șarlatanie de fanariot, respunse Tunsu, dar gândești că vei putea ca să ne înșeli pe noi ?</p>
+            <p>— Nu, nici nu mă gândesc la aceasta.</p>
+            <p>— In ori ce caz, noi voim să fim siguri, haide, cred că știi să scrii ?</p>
+            <p>— Știu.</p>
+            <p>Tunsu făcu un semn și unul din haiduci intră într'o celulă din pământ și se întoarse dupe acea cu  călimară, cu un condei și cu o foae de hârtie.</p>
+            <p>— Scrie ce-ți voi zice eu, pronunță Tunsu adresându-se către Andronachi.</p>
+            <p>Andronachi luă hârtia și începu să scrie:</p>
+            <p>Tunsu dicta.</p>
+            <p>„Am mare nevoe de 1,200 lire otomane, dați-le acestui om care vă aduce scrisoare, l-am însărcinat eu."</p>
+            <p>„Andronachi".</p>
+            <p>După aceea căpitanul haiducilor căută pe fanariot la mână și găsi un inel.</p>
+            <p>— Dă acest inel și ți-l voi înapoia, când vei pleca, adăugă Tunsul.</p>
+            <p>— Bine, zise Andronachi cu o jumătate de voce.</p>
+            <p>— Nichifor, zise dupe aceea căpitanul, haiducului, du-te la București și fă tot ce știi ca să-ți dea familia acestuia banii coprinși în bilet.</p>
+            <p>— In care stradă ?</p>
+            <p>— Spune adresa dumitale, zise Tunsu ciocoiului.</p>
+            <p>—Strada Bucur No. 41.</p>
+            <p>— Bine, observă însă că dacă vei minți cu ceva să știi că ești mort.</p>
+            <pb n="57" source="55"/>
+            <p>— M’am gândit la aceasta.</p>
+            <p>Trei zile în urmă Nichifor se întoarse cu 1,200 lire otomane.</p>
+            <p>Tunsu luă bani, împărți pe la toți tovarășii săi, dete apoi o sută lire și lui Andronachi ca să albă de cheltuială până acasă înapoindu-i și inelul cu care s’a servit Nichifor spre a încredința familia lui Andronachi, că în adevăr a fost trimis de către el și în urmă îi dete drumul.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

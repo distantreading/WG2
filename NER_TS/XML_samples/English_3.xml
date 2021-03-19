@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Vanity Fair: A Novel without a Hero: ELTeC edition</title>
+           <author ref="https://viaf.org/viaf/95208604/">Thackeray, William Makepeace (1811-1863)</author>
+        </titleStmt>
+        <extent>
+           <measure unit="words">298740</measure>
+        </extent>
+        <publicationStmt>
+           <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+           <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+           <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+        </publicationStmt>
+        <sourceDesc><bibl type="digitalSource"><author>Thackeray, William Makepeace</author>
+           <title>Vanity Fair, A Novel without a Hero. Vols. V &amp; VI</title>
+           <title level="s">Harvard Classics Shelf of Fiction.</title>
+           <publisher>New York: P.F. Collier &amp; Son, 1917</publisher>
+           <publisher>Bartleby.com, 2000.</publisher>
+           <ref target="http://www.bartleby.com/305/">Bartleby</ref></bibl>
+           <bibl type="firstEdition" n="B7155">
+              <author>W. M. Thackeray</author>
+              <title>Vanity Fair: A Novel without a Hero</title>
+              <publisher>London: Bradbury and Evans</publisher>
+              <date>1848</date>
+              <ref target="http://dbooks.bodleian.ox.ac.uk/books/PDFs/590972833.pdf"/>
+           </bibl></sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>  Rebecca had never seen a Baronet, as far as she knew, and as soon as she
+            had taken leave of Amelia, and counted the guineas which good-natured Mr.
+            Sedley had put into a purse for her, and as soon as she had done wiping her
+            eyes with her handkerchief (which operation she concluded the very moment
+            the carriage had turned the corner of the street), she began to depict in
+            her own mind what a baronet must be. “I wonder, does he wear a star?”
+            thought she, “or is it only lords that wear stars? But he will be very
+            handsomely dressed in a court suit, with ruffles, and his hair a little
+            powdered, like Mr. Wroughton at Covent Garden. I suppose he will be awfully
+            proud, and that I shall be treated most contemptuously. Still I must bear my
+            hard lot as well as I can—at least, I shall be amongst <hi>gentlefolks,</hi>
+            and not with vulgar city people:” and she fell to thinking of her Russell
+            Square friends with that very same philosophical bitterness with which, in a
+            certain apologue, the fox is represented as speaking of the grapes.</p>
+         <p>  Having passed through Gaunt Square into Great Gaunt Street, the carriage at
+            length stopped at a tall gloomy house between two other tall gloomy houses,
+            each with a hatchment over the middle drawing-room window; as is the custom
+            of houses in Great Gaunt Street, in which gloomy locality death seems to
+            reign perpetual. The shutters of the first-floor windows of Sir Pitt’s
+            mansion were closed—those of the dining-room were partially open, and the
+            blinds neatly covered up in old newspapers.</p>
+         <p>  John, the groom, who had driven the carriage alone, did not care to descend
+            to ring the bell; and so prayed a passing milk-boy to perform that office
+            for him. When the bell was rung, a head appeared between the interstices of
+            the dining-room shutters, and the door was opened by a man in drab breeches
+            and gaiters, with a dirty old coat, a foul old neckcloth lashed round his
+            bristly neck, a shining bald head, a leering red face, a pair of twinkling
+            grey eyes, and a mouth perpetually on the grin.</p>
+         <p>  “This Sir Pitt Crawley’s?” says John, from the box.</p>
+         <p>  “Ees,” says the man at the door, with a nod.</p>
+         <p>  “Hand down these ’ere trunks, then,” said John.</p>
+         <p>  “Hand ’n down yourself,” said the porter.</p>
+         <p>  “Don’t you see I can’t leave my hosses? Come, bear a hand, my fine feller,
+            and Miss will give you some beer,” said John, with a horse-laugh, for he was
+            no longer respectful to Miss Sharp, as her connexion with the family was
+            broken off, and as she had given nothing to the servants on coming away.</p>
+         <p>  The bald-headed man, taking his hands out of his breeches pockets, advanced
+            on this summons, and throwing Miss Sharp’s trunk over his shoulder, carried
+            it into the house.</p>
+         <p>  “Take this basket and shawl, if you please, and open the door,” said Miss
+            Sharp, and descended from the carriage in much indignation. “I shall write
+            to Mr. Sedley and inform him of your conduct,” said she to the groom.</p>
+         <p>  “Don’t,” replied that functionary. “I hope you’ve forgot nothink? Miss
+            ’Melia’s gownds—have you got them—as the lady’s maid was to have ’ad? I hope
+            they’ll fit you. Shut the door, Jim, you’ll get no good out of
+            <hi>’er,”</hi> continued John, pointing with his thumb towards Miss
+            Sharp; “a bad lot, I tell you, a bad lot,” and so saying, Mr. Sedley’s groom
+            drove away. The truth is, he was attached to the lady’s maid in question,
+            and indignant that she should have been robbed of her perquisites.</p>
+         <p>  On entering the dining-room, by the orders of the individual in gaiters,
+            Rebecca found that apartment not more cheerful than such rooms usually are,
+            when genteel families are out of town. The faithful chambers seem, as it
+            were, to mourn the absence of their masters. The turkey carpet has rolled
+            itself up, and retired sulkily under the sideboard: the pictures have hidden
+            their faces behind old sheets of brown paper: the ceiling lamp is muffled up
+            in a dismal sack of brown holland: the window-curtains have disappeared
+            under all sorts of shabby envelopes: the marble bust of Sir Walpole Crawley
+            is looking from its black corner at the bare boards and the oiled
+            fire-irons, and the empty card-racks over the mantel-piece: the cellaret has
+            lurked away behind the carpet: the chairs are turned up heads and tails
+            along the walls: and in the dark corner opposite the statue, is an
+            old-fashioned crabbed knife-box locked and sitting on a dumb waiter.</p>
+         <p>  Two kitchen chairs, and a round table, and an attenuated old poker and
+            tongs were, however, gathered round the fire-place, as was a saucepan over a
+            feeble sputtering fire. There was a bit of cheese and bread, and a tin
+            candlestick on the table, and a little black porter in a pint-pot.</p>
+         <p>  “Had your dinner, I suppose? It is not too warm for you? Like a drop of
+            beer?”</p>
+         <p>  “Where is Sir Pitt Crawley?” said Miss Sharp majestically.</p>
+         <p>  “He, he! I’m Sir Pitt Crawley. Reklect you owe me a pint for bringing down
+            your luggage. He, he! Ask Tinker if I aynt. Mrs. Tinker, Miss Sharp; Miss
+            Governess, Mrs. Charwoman. Ho, ho!”</p>
+         <p>  The lady addressed as Mrs. Tinker, at this moment made her appearance with
+            a pipe and a paper of tobacco, for which she had been despatched a minute
+            before Miss Sharp’s arrival; and she handed the articles over to Sir Pitt,
+            who had taken his seat by the fire.</p>
+      </body>
+  </text>
+</TEI>

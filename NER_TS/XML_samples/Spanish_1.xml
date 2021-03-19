@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Juan Vulgar : edición ELTeC</title>
+           <author ref="viaf:35252653">Octavio Picón, Jacinto (1852-1923)</author>
+           <respStmt>
+              <resp>Edición ELTeC</resp>
+              <name>Borja Navarro Colorado</name>
+           </respStmt>
+        </titleStmt>
+        <extent>
+           <measure unit="words">31478</measure>
+        </extent>
+        <publicationStmt>
+           <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+           <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+           <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+        </publicationStmt>
+        <sourceDesc><bibl type="digitalSource">
+           José Calvo Tello
+           <ref target="https://github.com/cligs/conssa">Corpus of Novels of the Spanish Silver Age (CoNSSA)</ref>
+           <idno>ne0162</idno>
+           <pubPlace>University of Würzburg</pubPlace>
+           <date when="2020"/>
+        </bibl><bibl type="digitalSource">
+           <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+           <pubPlace>Universidad de Alicante</pubPlace>
+           <date when="2000">2000</date>
+           <ref target="http://www.cervantesvirtual.com/obra/lazaro-juan-vulgar--0/"/>
+        </bibl><bibl type="printSource">
+           <publisher>Renacimiento</publisher>
+           <pubPlace>Madrid</pubPlace>
+           <date when="1918">1918</date>
+        </bibl><bibl type="firstEdition">
+           <publisher> Estab. Tip. de El Correo</publisher>
+           <pubPlace>Madrid</pubPlace>
+           <date when="1885">1885</date>
+           <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000094383"/>
+        </bibl></sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="chapter" n="SPA3019001">
+            <head>- I -</head>
+            <p>Tiene, al comenzar este verídico relato, diecisiete años. Su infancia ha sido la de casi todos los muchachos de pueblo. Nunca estuvo para él la fruta demasiado alta, ni logró su abuela esconder las golosinas en sitio que no descubriera, ni había en la comarca perro que no le temiese. A pedradas turbaba él sosiego de los pájaros ocultos en las frondas, y entre burlas y veras, con sus requiebros, traía desasosegados los corazones de las mozas. Más de una cuando él a la fuente se acercaba, fingió que no podía con el cántaro para que Juan la ayudase a levantarlo, mientras otra, dejándole ver los remangados brazos, alzaba vigorosamente el suyo, como dándole a entender cuán apretado lazo formaría con ellos en torno de su cuello.</p>
+            <p>Una, a quien hasta sus compañeras llamaban Luisa <emph>la bonita</emph>, llegó, por fin, a hacerse casi dueño de su alma, y desde entonces Juan, buscándola incesantemente, comenzó a descuidar la vigilancia de la hacienda de su padre. Por la mañana, muy temprano, se apostaba cerca de la casa de Luisa para verla cuando se asomaba a colgar de un clavo la jaula del pájaro que entretenía sus horas de costura; ya entrado el día, iba a esperarla en el arranque del camino de la fuente, y le hacía tomar el sendero más largo, obligándola a andarlo despacito; a la tarde, sin que el calor le arredrase, pasaba varias veces ante su puerta, para verla cosiendo ante el cancel o para oírla, si estaba más hacia dentro, cantar coplas que querían decirle «aquí me tienes». Después, al caer el día, hacían juntos el segundo viaje a la fuente, y al regresar envueltos entre sombras, ella le dejaba acercarse cuanto quería, más temerosa de la oscuridad que de los besos. Y luego, a la noche, cuando las gentes reposaban arrulladas por el airecillo que movía las ramas de los cercanos naranjales, él, apoyado en la reja y caído a sus pies el guitarro, le decía ternezas con los labios y cosas muy atrevidas con los ojos, mientras la chica, de rato en rato, le abandonaba las manos, ya que los maldecidos hierros les separaban las caras.</p>
+            <p>Así pasaron algunos meses, hasta que el padre de Juan, labrador de mediano caudal y ambicioso de buen porvenir para su hijo, quiso poner por obra el proyecto que de tiempo atrás acariciaba. El chico de su compadre estaba en Madrid estudiando hacía dos años; a Martín Gonzalete, hijo de un ricacho del pueblo, sólo le faltaba un año para graduarse de boticario, y cuando en las vacaciones venía a pasar el verano con su familia, era de ver el contraste que formaban su traje y sus maneras con la ropa y los modales de Juan. Hasta el tío Pipierno, chalán que se pasaba la vida recorriendo ferias para vender burros reumáticos y caballos gotosos, había mandado uno de sus hijos a la corte a seguir la carrera de agrimensor. De suerte, que el padre de Juan, ganoso de prosperidades soñadas y espoleado además por el pícaro amor propio, fue de día en día encariñándose con su propósito. Cada vez que oía a la mujer de Gonzalete decir: «Cuando Martín se <emph>desamine de últimas</emph> le compraremos la botica de don Rufino»; cada vez que el tío Pipierno se llenaba la boca, publicando que su chico estudiaba de <emph>pa</emph> <emph>engeniero der campo, </emph>al pobre viejo le acometían intenciones de precipitarlo todo, enviando a Juan inmediatamente a la corte; pero luego, por no separarse de él, iba retrasándolo, temerosos su buen sentido y su corazón amante de la larga ausencia que era precisa. Los amoríos de Juan acabaron de decidirle. La muchacha era hija de unos arrendatarios suyos, que a duras penas podían pagarle cuando vencían los plazos; y aquel hombre, que se casó con mujer pobre, asustado ante la idea de que su chico hiciera lo mismo, decidiose repentinamente, y de la noche a la mañana corrió por el pueblo la noticia de que Juan marchaba a Madrid. Gonzalete iba a tener botica, el joven Pipierno iba a ser <emph>engeniero... </emph>pues Juan sería abogado, y con esto más señor que ninguno de ellos.</p>
+            <p>Citando lo supo Luisa, el corazón comenzó a brincarle dentro del pecho como pájaro inquieto en jaula nueva, y aquella noche y las siguientes, hasta que Juan partió, el camino de la fuente y los hierros de la reja escucharon sonar más besos y oyeron más juramentos que tallos de hierba había en el campo.</p>
+            <p>Llegó por fin el día de la marcha.</p>
+            <p>Estaba la casa de los padres de Juan situada al borde del camino. Tenía los muros escrupulosamente enjalbegados, y las ventanas pintarrajeadas de colores chillones y llenas de macetas floridas. En el caballete del tejado se perseguían unas cuantas palomas, y volando rápidamente ante los nidos hechos entre las vigas del alero, pasaban piando las golondrinas. A lo lejos, perdidos entre los trigos, se oían de rato en rato el chirrido de una cigarra, el rechinar de un carro o el canto de un bracero. Las enormes pitas de hojas punzantes y anchas proyectaban sus sombras caprichosas y enérgicas sobre las tapias del corral, y un gigantesco grupo de palmeras de áspero tronco se cimbreaba suavemente a impulsos del viento, que gemía entre el enorme y frondoso ramo de sus copas. Una luz muy ardorosa y un ambiente muy seco lo envolvían todo. La llanura amarillenta del campo se confundía en el horizonte con el intenso azul del cielo. La tierra estaba grietada, sedienta; en los lechos de las corrientes exhaustas brillaban al sol los cantos como pulidos y lustrosos; el paso perezoso de una bestia cansada o el brincar de un chicuelo, bastaban para alzar del camino una nube de polvo.</p>
+            <p>-Desde aquí hasta el tren, vas en el potro, -había dicho a Juan su padre- allí lo dejas <emph>confiao 					</emph>al jefe, que ya nos conoce. Yo enviaré por la bestia.</p>
+            <p>En la puerta de la casa, cuyo ancho zaguán se veía hacia el fondo lleno de arreos de mula y aperos de labor, un mozo ataba a la silla del caballejo el maletín de Juan, mientras éste entre los brazos de su madre, por hacerse el fuerte, se tragaba las lágrimas. Ella lloraba poco y le apretaba mucho. La hermanilla pequeña sujetaba a duras penas con sus endebles manecitas la cabeza de un perro que ansiaba partir ladrando ante su amo; y apoyada en el quicio del portón, alguna de las que pusieron en Juan sus esperanzas le contemplaba tristemente, mientras él, ya desprendido de la madre, cambiaba abrazos y apretones de manos...</p>
+            <p>-Vete ya; -dijo por fin el padre- alguna vez has de empezar a ser hombre.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Vanity Fair: A Novel without a Hero: ELTeC edition</title>
+           <author ref="https://viaf.org/viaf/95208604/">Thackeray, William Makepeace (1811-1863)</author>
+        </titleStmt>
+        <extent>
+           <measure unit="words">298740</measure>
+        </extent>
+        <publicationStmt>
+           <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+           <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+           <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
+           <ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+        </publicationStmt>
+        <sourceDesc><bibl type="digitalSource"><author>Thackeray, William Makepeace</author>
+           <title>Vanity Fair, A Novel without a Hero. Vols. V &amp; VI</title>
+           <title level="s">Harvard Classics Shelf of Fiction.</title>
+           <publisher>New York: P.F. Collier &amp; Son, 1917</publisher>
+           <publisher>Bartleby.com, 2000.</publisher>
+           <ref target="http://www.bartleby.com/305/">Bartleby</ref></bibl>
+           <bibl type="firstEdition" n="B7155">
+              <author>W. M. Thackeray</author>
+              <title>Vanity Fair: A Novel without a Hero</title>
+              <publisher>London: Bradbury and Evans</publisher>
+              <date>1848</date>
+              <ref target="http://dbooks.bodleian.ox.ac.uk/books/PDFs/590972833.pdf"/>
+           </bibl></sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="chapter">
+            <head>VIII. Private and Confidential</head>
+            <p>  Everything considered, I think it is quite as well for our dear Amelia
+               Sedley, in Russell Square, that Miss Sharp and she are parted. Rebecca is a
+               droll funny creature, to be sure; and those descriptions of the poor lady
+               weeping for the loss of her beauty, and the gentleman “with hay-coloured
+               whiskers and straw-coloured hair,” are very smart, doubtless, and show a
+               great knowledge of the world. That she might, when on her knees, have been
+               thinking of something better than Miss Horrock’s ribbons, has possibly
+               struck both of us. But my kind reader will please to remember that this
+               history has “Vanity Fair” for a title, and that Vanity Fair is a very vain,
+               wicked, foolish place, full of all sorts of humbugs and falseness and
+               pretensions. And while the moralist, who is holding forth on the cover (an
+               accurate portrait of your humble servant), professes to wear neither gown
+               nor bands, but only the very same long-eared livery in which his
+               congregation is arrayed: yet, look you, one is bound to speak the truth as
+               far as one knows it, whether one mounts a cap and bells or a shovel-hat; and
+               a deal of disagreeable matter must come out in the course of such an
+               undertaking.</p>
+            <p>  I have heard a brother of the story-telling trade, at Naples, preaching to
+               a pack of good-for-nothing honest lazy fellows by the sea-shore, work
+               himself up into such a rage and passion with some of the villains whose
+               wicked deeds he was describing and inventing, that the audience could not
+               resist it; and they and the poet together would burst out into a roar of
+               oaths and execrations against the fictitious monster of the tale, so that
+               the hat went round, and the bajocchi tumbled into it, in the midst of a
+               perfect storm of sympathy.</p>
+            <p>  At the little Paris theatres, on the other hand, you will not only hear the
+               people yelling out: <hi>“Ah gredin! Ah monstre!”</hi> and cursing the tyrant
+               of the play from the boxes; but the actors themselves positively refuse to
+               play the wicked parts, such as those of <hi>infâmes Anglais,</hi> brutal
+               Cossacks, and what not, and prefer to appear at a smaller salary, in their
+               real characters as loyal Frenchmen. I set the two stories one against the
+               other, so that you may see that it is not from mere mercenary motives that
+               the present performer is desirous to show up and trounce his villains; but
+               because he has a sincere hatred of them, which he cannot not keep down, and
+               which must find a vent in suitable abuse and bad language.</p>
+            <p>  I warn my “kyind friends,” then, that I am going to tell a story of
+               harrowing villany and complicated—but, as I trust, intensely
+               interesting—crime. My rascals are not milk-and-water rascals, I promise you.
+               When we come to the proper places we won’t spare fine language—No. no! But
+               when we are going over the quiet country we must perforce be calm. A tempest
+               in a slop-basin is absurd We will reserve that sort of thing for the mighty
+               ocean and the lonely midnight. The present Chapter is very mild. Others——But
+               we will not anticipate <hi>those.</hi></p>
+            <p>  And, as we bring our characters forward, I will ask leave, as a man and a
+               brother, not only to introduce, but occasionally to step down from the
+               platform, and talk about them: if they are good and kindly, to love them and
+               shake them by the hand: if they are silly, to laugh at them confidentially
+               in the reader’s sleeve: if they are wicked and heartless, to abuse them in
+               the strongest terms which politeness admits of.</p>
+            <p>  Otherwise you might fancy it was I who was sneering at the practice of
+               devotion, which Miss Sharp finds so ridiculous; that it was I who laughed
+               good-humouredly at the reeling old Silenus of a baronet—whereas the laughter
+               comes from one who has no reverence except for prosperity, and no eye for
+               anything beyond success. Such people there are living and flourishing in the
+               world—Faithless, Hopeless, Charityless: let us have at them, dear friends,
+               with might and main. Some there are, and very successful too, mere quacks
+               and fools: and it was to combat and expose such as those, no doubt, that
+               Laughter was made.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

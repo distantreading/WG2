@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Ioan Tunsu: ediție HAIRO</title>
+           <author>Panait MACRI</author>
+           <respStmt>
+              <resp>OCRizat de</resp>
+              <name>Roxana Patraș</name>
+           </respStmt>
+           <respStmt>
+              <resp>Corectat și anotat TEI de</resp>
+              <name>Ioana Galleron</name>
+           </respStmt>
+           <principal>
+              <name>Patraș, Roxana</name>
+              <name>Galleron, Ioana</name>
+           </principal>
+        </titleStmt>
+        <extent>
+           <measure unit="words"></measure>
+           <measure unit="pages"></measure>
+        </extent>
+        <publicationStmt>
+           <publisher>Proiect HAIRO (U. "Alexandru Ioan Cuza"/ U. Sorbonne-Nouvelle)</publisher>
+           <pubPlace>Iași</pubPlace>
+           <pubPlace>Paris</pubPlace>
+           <date>2020</date>
+           <availability>
+              <licence target="https://creativecommons.org/licenses/by-nc/4.0/legalcode.ro">Distributed
+                 under a Creative Commons Attribution-NonCommercial 4.0 Unported License</licence>
+           </availability>
+           <idno type="handle">11280/a6ee1404</idno>
+           <distributor>NAKALA
+              <ref>www.nakala.fr</ref>
+           </distributor>
+        </publicationStmt>
+        <sourceDesc>
+           <bibl>
+              <author>MACRI Panait</author>
+              <title>Ioan Tunsu, căpitan de haiduci</title>
+              <pubPlace>Bucuresti</pubPlace>
+              <publisher>Cultura Românească, Institut de editură, arte grafice și confecțiuni din hârtie</publisher>
+              <date>1927</date>
+           </bibl>
+        </sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="chapter" n="9">
+            <head>Tunsu răpește dela unii și dă la alții.</head>
+            <p>Trecuse mai multe luni dela venirea lui Niță în tabăra haiducilor.</p>
+            <p>Acum era iarnă, Tunsu rămăsese fără bani.</p>
+            <p>Pe lângă asta, în toate satele era o foamete cumplită.</p>
+            <p>Mulți dintre țărani ajunsese să moară chiar de foame.</p>
+            <p>— Căpitane, zise într’o zi Tudor lui Tunsu, nu avem provizie, ce vom face ? Din ciocoi nu mai trece nici unul pe la noi și banii ce mai aveam pentru a trece iarna i-ai împărțit pe la săraci. Incă câteva zile și vom muri de foame !</p>
+            <p>— Tu în totd’auna ești mic la suflet, zise căpitanul cu un accent supărat.</p>
+            <p>— Nu sunt mic, căpitane, tu singur știi că în fața luptelor niciodată nu m’am dat înapoi și știi deasemeni că de aș avea acum atâția sfanți câți streini
+               <pb n="71" source="69"/>
+               am trimes pe lumea cealaltă apoi aș fi cel mai bogat din țara românească, dar ce vrei, când văd că sărăcia ne a copleșit, nu pot decât să mă tem.</p>
+            <p>— Numai în timpuri de nevoie se poate deosebi cel slab de cel tare, haide fii pururea haiduc, dar nu muere.</p>
+            <p>Tudor deși nu putu să fie de loc convins de cuvintele căpitanului său, ca 'să nu-l supere însă mai mult eși afară lăsându-l singur în chiliuța sa.</p>
+            <p>Atunci Tunsu se puse pe gânduri.</p>
+            <p>— Imi trebue bani, își zise el ; dar bani voiu găsi.</p>
+            <p>Eși apoi afară și-și chemă tovarășii.</p>
+            <p>— Băeți, le zise el, pregătiți-vă caii și luați cu voi arme și încărcături, căci trebue să plecăm.</p>
+            <p>— Unde ? întrebă unii dintre haiduci.</p>
+            <p>— Acolo unde vă voi duce eu.</p>
+            <p>Haiducii se supuseră și jumătate de oră în urmă toți erau gata.</p>
+            <p>Tunsu încălecă un cal roib și în fruntea voinicilor o luă la fugă urmat de ai săi.</p>
+            <p>Pe la asfințitul soarelui haiducii erau la marginea satului C...</p>
+            <p>Aici era un boer fanariot, bătrân și cel mal nelegiuit.</p>
+            <p>In tinerețea sa făcuse multe. Zecimi de fete au ajuns pe drumuri din pricina sa și mulți dintre săteni ajunsese în sapă de lemn fiind despoiați de acest barbar străin.</p>
+            <p>Tunsu știa aceasta și el venia acum.</p>
+            <p>Scopul căpitanului de haiduci era să-l omoare, și 
+               <pb n="72" source="70"/>
+               să-i ia toți banii. Din nenorocire însă tocmai în ziua acea fanariotul lipsea de acasă.</p>
+            <p>El se dusese cu câte-va zile mai înainte la Constantinopol lăsând în locu-i pe femeea sa, o fată de român.</p>
+            <p>Ea era de o frumusețe rară și încă tânără pe când răpitorul ei era un om care ar fi număratla șeapte-zeci de ani aproape.</p>
+            <p>De două-zeci de ani erau ei însurați ; când s’a măritat, ea nu împlinise nici patrusprezece ani, și în tot timpul acesta n’au putut dobândi de cât o singură fiică care acum era în etate ca de optsprezece ani.</p>
+            <p>Ea se numia Eleonora și era tot atât de frumoasă ca și muma sa.</p>
+            <p>Tot satul iubia pe frumoasa proprîetăreasa a moșiei, și o iubeau cu atât mai mult, cu cât urau pe bătrânul și nelegiuitul ei bărbat.</p>
+            <p>Abia Tunsul ajunse la marginea satului și vestea se răspândi numai decât de către niște țărani, care se aflau la câmp.</p>
+            <p>— Vine Tunsu, vine Tunsu ! răsuna în toate părțile.</p>
+            <p>Femeile se ascundeau prin casă strângându-și copilașii lângă sânuriie lor, ușile se închideau și zăvoreau pretutindeni, numai românii cei tineri, flăcăii satului, care știau cine-i Tunsu și cui poate face el rău, stăteau afară pe prispă așteptând cu nerăbdare venirea sa.</p>
+            <p>Nu era tot astfel însă și în curtea boerească.</p>
+            <p>Acolo se făceau pregătiri de război.</p>
+            <pb n="73" source="71"/>
+            <p>Slugile proprietarului moșiei, cari nu erau decât tot fanarioți, își încărcară armele așteptând minutul de luptă.</p>
+            <p>Erau siguri că Tunsu nu vine în sat de cât numai pentru ei.</p>
+            <p>Casele boerești erau împresurate de ziduri groase, cu toate astea porțile erau puțin vechi.</p>
+            <p>Trebue să spunem de asemeni că și biserica satului se afla tot în acea curte.</p>
+            <p>Câteva minute încă șl Tunsu, împreună cu haiducii săi intrară în sat.</p>
+            <p>Atunci se presintă o priveliște din cele mai frumoase.</p>
+            <p>Toți tinerii satului eșiau înaintea sa și aruncând căciulile în vânt strigau :</p>
+            <p>— Trăiască Tunsu, căpitan de haiduci.</p>
+            <p>Iar alții ziceau :</p>
+            <p>— Trăiască haiducii lui Tunsu.</p>
+            <p>Ioniță trecu în mijlocul acestor aclamări și nu se opri de cât la poarta curței boerești.</p>
+            <p>Poarta era închisă.</p>
+            <p>Fanarioții îndată ce văzură că haiducii sunt aproape, perdură tot curagiul ce-l aveau mai înainte și neștiind ce să mai facă se ascunseră cu toții în turnul bisericei.</p>
+            <p>Singură desperata proprietăreasă împreună cu frumoasa ei fiică rămaseră în casă, ascunzându-se în iatacul cel mai mic din fund.</p>
+            <p>— O, mamă ! zicea gingașa copilă, dacă cumva hoții vor intra până aici, ce ne vom face oare ?</p>
+            <pb n="74" source="72"/>
+            <p>— Ne vor omori ! răspunse muma umplând-o de sărutări.</p>
+            <p>— Nu, dragă mamă, voiu cădea în genunche și voiu cere dela ei grațierea vieței tale.</p>
+            <p>— O, draga mamei, tu ești tânără șl frumoasă și pe tine nu te vor omori, ci te va lua vre-unul din ei cu dânsul ca să-i fii amanta lui, căci astfel au ei de obiceiu a face unde găsesc fete frumoase. Eu însă voiu muri.</p>
+            <p>— Cum să mori tu scumpă mamă și eu să mai trăesc ! o, asta nu se poate, sau pe amândouă ne vor erta, sau amândouă vom muri odată.</p>
+            <p>Șl copila plângând îmbrățișă pe muma sa și o sărută cu iubirea unui copil inocent.</p>
+            <p>Pe când însă această scenă tristă se representa în fundul caselor boerești, pe când o mumă și o fică așteptau moartea sau scăparea lor, o altă scenă și mai tristă se representa afară.</p>
+            <p>Haiducii îndată ce ajunseră lângă curtea boerească găsiră porțile închise.</p>
+            <p>Tunsu se uită atunci în sus și văzu turnul bisericei plin de fanarioți.</p>
+            <p>Numai decât își luă căpitanul pușca dupe umăr, ochi în unul din acele slugi cari se ascunseră de frica morței și dând foc doborî pe unul din ei la pământ.</p>
+            <p>Era ceva trist și comic totodată să vezi cum un om vine învârtindu-se din turnul unei biserici, spre a cădea la pământ unde trebuia să devie țărână.</p>        
+         </div> 
+      </body>
+  </text>
+</TEI>
