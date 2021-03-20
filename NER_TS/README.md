@@ -5,7 +5,7 @@
 ### 22 March
 1° 9.00-11.30  
 A presentation about NER in general  
-with a break 10.00-10.15  
+with a break 10.15-10.30  
 Diana Santos, Carmen Brando
 
 2° 12.30-15.00  
