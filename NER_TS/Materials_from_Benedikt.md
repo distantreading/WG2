@@ -6,4 +6,4 @@ https://colab.research.google.com/drive/16J6-X3jvGMW57JohC40cB76gP8ms0AnB?usp=sh
 
 [Python Client for Google Maps Services](https://colab.research.google.com/drive/1umGiTylqwvvVWnm_g9MrLSf1xJtemBDf?usp=sharing)
 
-The jupyter notebooks are also placed in W2_notebooks folder.
+The jupyter notebooks are also placed in [W2_notebooks folder](https://github.com/distantreading/WG2/tree/master/NER_TS/W2_notebooks).
