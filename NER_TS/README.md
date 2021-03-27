@@ -30,7 +30,7 @@ Data Analysis, Representation of the Geo-Entities and Enrichment of the Data Usi
 Benedikt Perak
 
 ### 25 March 2021,  
-15.00-17:30h  
+! cancelled for today, TBC, asynchronous
 Relating the Data  
 Jessie Labov
 
