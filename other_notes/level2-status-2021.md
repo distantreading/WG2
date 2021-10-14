@@ -11,41 +11,40 @@ Lou: The proposed solution looks quite strange to me, though it is certainly val
 
 ## 2. POS encoding
 We expect UD format, but any tagger can be used, as long as the results are mapped to the UD tagset.
-Some examples of taggers are [UDPipe](https://lindat.mff.cuni.cz/services/udpipe/), [Stanza](https://stanfordnlp.github.io/stanza/) or Treetagger, Spacy, etc. Only UD Pipe and Stanza have pre-trained models that are already UD compatible.
+Some examples of taggers are [UDPipe](https://lindat.mff.cuni.cz/services/udpipe/), [Stanza](https://stanfordnlp.github.io/stanza/) or Treetagger, Spacy, etc. Only UD Pipe and Stanza have pre-trained models that are already UD compatible.  
 -> So the next version of the schema will revert to enforcing use of UDP values for the @pos attribute -- and complain if other values are used.
 
 ## 3. XPOS annotation
 xpos tags = foreign parts of speechs can be encoded with @ana attribute - this will require an explanation in the header (Lou will inform us of how to, given that most reactions so far lean towards @ana, see below), this is a non obligatory element. The @ana can contain any "local" tagset
 It also- needs to be decided whether to use pointers or the extended TEI pointer syntax for the value of @ana.
 
-##4. MSD annotation
+## 4. MSD annotation
 msd is a posible but optional parameter, should have its value as UD morphological features
 
-##5. Should we have @id attribute for each word
+## 5. Should we have @id attribute for each word
 This is already allowed on any structure, but not required or recommended. If there is a public demand that this is needed we might come back to this question and determine how to do it.
 
-##6. Splitting into sentences <s> is required.
+## 6. Splitting into sentences <s> is required.
 For title and chapter - we provide a sentence tag within the header
 
 ##7. Punctuation
 Punctuation should be marked with <pc>. We also require the use of @join="right" on the tokens that should not be followed by a space.
 
-##8. Finding a place for a "modernized" version to be encoded, i.e. allow for a modern and an ancient ortography?
+## 8. Finding a place for a "modernized" version to be encoded, i.e. allow for a modern and an ancient ortography?
 Lou is slightly against it, arguing that a search for changing ortography can be done with lemmas. We might come back to it after completing level 2 if it will seem important still then.
 Lou: If there's a strong feeling that for some languages the ability to encode explicitly a normalised form is necessary, then we could easily introduce the TEI @norm attribute on <w>. It might be good in this context to reconsider whether we also need the <corr> element.
 Tomaž: Well, we now also have the @norm attribute on words (needed for syntactic words as per 1. above), so this could be easily used also for the modernised form of words. There is a problem if a word has a modernised form, and this form is then decomposed into 2 syntactic words - while the encoding could be further complicated, I suggest that in this case we don't have the modernised form, but just the syntactic words. A bit ugly, I admit.
 
-##9. Providing information about quality of annotation
+## 9. Providing information about quality of annotation
 We are in favour of providing information about the quality of annotation of particular texts. Implementing this requires some discussions - do we define a uniform manner of evaluating the quality? at what stage should it be measured (pre or post possible manual corrections)? where and how should it be encoded? We plan to come back to this question in the near WG2 meeting and discuss available options.
 
 Ideas:
 Lou: In the first instance, maybe a paragraph in the readme file for the level2 repository would suffice, but it should find its way into the corpus header encodingDesc too.
 Tomaz: I think this would be nice, but it is expensive to manually check all the annotations for a big enough sample (by somebody who understands UD), so I am a bit skeptical that people will be able to do it.
 
-##10. Encoding additional NE - the discussion on this is postponed to a later meeting
+## 10. Encoding additional NE - the discussion on this is postponed to a later meeting
 
-
-More on @ana from Lou:
+## More on @ana from Lou:
 Concerning @ana -- the value of this attribute in TEI is defined explicitly as  xsd:anyURI. So we might represent the magic xpos code "wibble" in one of the following ways:
 (1) ana="#wibble" : somewhere in the current document there is an element with an @xml:id which explains what a wibble is.
 (2) ana="http://somewhere.org/wibble" : the explanation for wibble is at the URI indicated
