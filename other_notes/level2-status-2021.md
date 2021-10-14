@@ -24,7 +24,7 @@ msd is a posible but optional parameter, should have its value as UD morphologic
 ## 5. Should we have @id attribute for each word
 This is already allowed on any structure, but not required or recommended. If there is a public demand that this is needed we might come back to this question and determine how to do it.
 
-## 6. Splitting into sentences <s> is required.
+## 6. Splitting into sentences with ```<s>``` is required.
 For title and chapter - we provide a sentence tag within the header
 
 ##7. Punctuation
