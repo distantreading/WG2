@@ -36,13 +36,15 @@ Lou: If there's a strong feeling that for some languages the ability to encode e
 Tomaž: Well, we now also have the @norm attribute on words (needed for syntactic words as per 1. above), so this could be easily used also for the modernised form of words. There is a problem if a word has a modernised form, and this form is then decomposed into 2 syntactic words - while the encoding could be further complicated, I suggest that in this case we don't have the modernised form, but just the syntactic words. A bit ugly, I admit.
 
 ## 9. Providing information about quality of annotation
-We are in favour of providing information about the quality of annotation of particular texts. Implementing this requires some discussions - do we define a uniform manner of evaluating the quality? at what stage should it be measured (pre or post possible manual corrections)? where and how should it be encoded? We plan to come back to this question in the near WG2 meeting and discuss available options.
+This is a new suggestion from Michael: should we provide a measure of quality of the various annotations?
+When this came up in the small meeting we were in favour of providing information about the quality of annotation of particular texts. But implementing this requires some discussions - do we define a uniform manner of evaluating the quality? at what stage should it be measured (pre or post possible manual corrections)? where and how should it be encoded? We plan to come back to this question in the near WG2 meeting and discuss available options.
 
 Ideas:
 Lou: In the first instance, maybe a paragraph in the readme file for the level2 repository would suffice, but it should find its way into the corpus header encodingDesc too.
 Tomaz: I think this would be nice, but it is expensive to manually check all the annotations for a big enough sample (by somebody who understands UD), so I am a bit skeptical that people will be able to do it.
 
-## 10. Encoding additional NE - the discussion on this is postponed to a later meeting
+## 10. Encoding additional NE 
+The discussion on this issue is postponed to a later meeting
 
 ## More on @ana from Lou:
 Concerning @ana -- the value of this attribute in TEI is defined explicitly as  xsd:anyURI. So we might represent the magic xpos code "wibble" in one of the following ways:
