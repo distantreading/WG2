@@ -7,7 +7,7 @@ The expected manner of encoding:
 ```
 <w>du<w lemma="de" pos="ADP"  norm="de"/><w lemma="le" pos="DET" msd="Definite=Def|PronType=Art" norm="le"/></w>
 ```
-Lou: The proposed solution looks quite strange to me, though it is certainly valid by the existing schema -- unless we decide to make e.g. @pos obligatory on every <w> which would  maybe not be such a bad idea.
+Lou: The proposed solution looks quite strange to me, though it is certainly valid by the existing schema -- unless we decide to make e.g. @pos obligatory on every `<w>` which would  maybe not be such a bad idea.
 
 ## 2. POS encoding
 We expect UD format, but any tagger can be used, as long as the results are mapped to the UD tagset.
@@ -15,7 +15,7 @@ Some examples of taggers are [UDPipe](https://lindat.mff.cuni.cz/services/udpipe
 -> So the next version of the schema will revert to enforcing use of UDP values for the @pos attribute -- and complain if other values are used.
 
 ## 3. XPOS annotation
-xpos tags = foreign parts of speechs can be encoded with @ana attribute - this will require an explanation in the header (Lou will inform us of how to, given that most reactions so far lean towards @ana, see below), this is a non obligatory element. The @ana can contain any "local" tagset
+xpos tags = foreign parts of speechs can optionally be encoded with @ana attribute - this will require an explanation in the header (Lou will inform us of how to, given that most reactions so far lean towards @ana, see below). The @ana can contain any "local" tagset
 It also- needs to be decided whether to use pointers or the extended TEI pointer syntax for the value of @ana.
 
 ## 4. MSD annotation
@@ -32,7 +32,7 @@ Punctuation should be marked with <pc>. We also require the use of @join="right"
 
 ## 8. Finding a place for a "modernized" version to be encoded, i.e. allow for a modern and an ancient ortography?
 Lou is slightly against it, arguing that a search for changing ortography can be done with lemmas. We might come back to it after completing level 2 if it will seem important still then.
-Lou: If there's a strong feeling that for some languages the ability to encode explicitly a normalised form is necessary, then we could easily introduce the TEI @norm attribute on <w>. It might be good in this context to reconsider whether we also need the <corr> element.
+Lou: If there's a strong feeling that for some languages the ability to encode explicitly a normalised form is necessary, then we could easily introduce the TEI @norm attribute on `<w>`. It might be good in this context to reconsider whether we also need the `<corr>` element.
 Tomaž: Well, we now also have the @norm attribute on words (needed for syntactic words as per 1. above), so this could be easily used also for the modernised form of words. There is a problem if a word has a modernised form, and this form is then decomposed into 2 syntactic words - while the encoding could be further complicated, I suggest that in this case we don't have the modernised form, but just the syntactic words. A bit ugly, I admit.
 
 ## 9. Providing information about quality of annotation
@@ -74,7 +74,7 @@ There is a good article on why the TEI extended pointer syntax needs some revisi
 for our use case.
 
 A second (or third) thought on pos/xpos attribute. We could simply use the existing @pos to provide the POS tag in the original tagset (the "xpos" value), and define a new @udp attribute to hold its UD
-equivalent. Strictly speaking, that would have to be in a different namespace, but it is easy enough to add. So rather than <w pos="NOUN" ana="my:sbsing">fish</w>
+equivalent. Strictly speaking, that would have to be in a different namespace, but it is easy enough to add. So rather than `<w pos="NOUN" ana="my:sbsing">fish</w>`
 we might do 
 ```
 <w my:udp="NOUN" pos="sbsing">fish</w>
