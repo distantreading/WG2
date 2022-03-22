@@ -61,8 +61,8 @@ pal1 <- c("#FAD510FF", "#CB2314FF", "#273046FF", "#354823FF", "#1E1E1EFF")
 
 meta = read_tsv("metadata.tsv")
 
-meta_en = meta %>% filter(lang=="en")
-meta_de = meta %>% filter(lang=="de")
+meta_en = meta %>% filter(lang=="en") %>% arrange(id)
+meta_de = meta %>% filter(lang=="de") %>% arrange(id)
 
 ```
 

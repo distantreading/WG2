@@ -1,0 +1,197 @@
+---
+title: "Distance and time (batch)"
+author: "Artjoms Šeļa"
+date: "3/17/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+theme_set(theme_minimal())
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Expanding to multiple languages
+
+This document repeats the analysis from `01_distance_and_time.rmd`, but allows all processed ELTeC corpora to participate. For demonstration we use 6 languages: it relies on prepared `metadata.csv` and prepared plain text files in `plain_text/`. For more information on corpus preparation, see `00_preparations.R` script.
+
+#### Current languages
+
+`r emo::ji("germany")` [ELTeC source](https://github.com/COST-ELTeC/ELTeC-deu)  (100 texts)  
+`r emo::ji("france")` [ELTeC source](https://github.com/COST-ELTeC/ELTeC-fra)  (100 texts)   
+`r emo::ji("romania")` [ELTeC source](https://github.com/COST-ELTeC/ELTeC-rom) (100 texts)  
+`r emo::ji("serbia")` [ELTeC source](https://github.com/COST-ELTeC/ELTeC-srp)  (100 texts)  
+`r emo::ji("uk")` [ELTeC source](https://github.com/COST-ELTeC/ELTeC-eng)  (100 texts)  
+`r emo::ji("ukraine")` [ELTeC source](https://github.com/COST-ELTeC/ELTeC-ukr) (49 texts)  
+
+## Setup 
+
+```{r message=F}
+library(stylo)
+library(tidyverse)
+## this is a 'clean' palette from 'base' collection
+## check 'paletteer' package for more amazing palettes
+pal1 <- c("#5DA5DAFF", "#FAA43AFF", "#60BD68FF", "#F15854FF", "#B276B2FF", "#8D4B08FF")
+
+
+meta <-  read_tsv("metadata.tsv") %>% group_by(lang) %>% arrange(id)
+## getting languages
+langs <- sort(unique(meta$lang))
+## getting corpora paths
+paths <- list.dirs("plain_corpus/",full.names = T,recursive = F)
+
+## empty variable for future table
+df_all <- NULL
+```
+
+
+
+
+## Main loop
+
+We build a loop so that each corpus in our list gets the same treatment: 
+
+1. Distance matrix calculation in with `stylo()`  
+2. Deriving labels and year differences
+3. Aligning all information in a data frame (`df`)
+4. Binding a corpus to other data (`df_all`)  
+
+
+```{r, message=F}
+
+## begin the main loop
+for (i in 1:length(langs)) {
+  
+  # filter corresponding meta
+  m <- meta %>% filter(lang==langs[i])
+  
+  # run stylo
+  results=stylo(gui=F, # turn off gui
+            corpus.dir = paths[i], # provide a path for corpus
+            mfw.min=200, # MFW
+            mfw.max=200, # MFW
+            analyzed.features = "w", # a word is a feature
+            ngram.size = 1,  # a single word is a feature
+            distance.measure = "delta", # burrow's delta
+            sampling = "no.sampling", # no sampling
+            sample.size = 10000, 
+            display.on.screen = FALSE, # don't display plot
+            corpus.lang="Other") # corpus language to "Other"
+  
+  # distances
+  distances <- as.matrix(results$distance.table)
+  lower_triangle = lower.tri(distances,diag = F)
+  
+  # labels
+  source_target=interaction(rownames(distances),rownames(distances)) %>%
+    levels() %>% matrix(nrow=nrow(distances),ncol=nrow(distances))
+
+  # years
+  y_diff=outer(X = m$year, Y = m$year, FUN = "-")
+  
+  # combine everything in one dataframe
+  df <- tibble(distance=distances[lower_triangle],
+                  year_diff=abs(y_diff[lower_triangle]),
+                  rel= source_target[lower_triangle],
+                  lang=langs[i])
+  
+  ## rebind table together
+  ## P.S. Growing tables is nasty in R, but we won't have too many corpora anyways
+  df_all <- rbind(df_all, df)
+
+} ## end of loop
+
+```
+
+## Distance distribution
+
+```{r message=F}
+## exploring distance distribution
+
+df_all %>% ggplot(aes(distance,fill=lang)) +
+  geom_histogram() +
+  facet_wrap(~lang) +
+  scale_fill_manual(values=pal1)
+
+```
+
+Something is definitely up with Serbian corpus! The **distribution is bimodal**: there is another peak at distance ~2. When you see clear bimodality in distances distribution, it begs a question: what is going on there? Unusually large distances clearly come from an alien "process", a bias in your corpus: a text could be too small, or text could included some non-standard spelling that would dramatically change MFWs list.  
+From the labels of those "long-distance" relationships I can tell that these happen involving two texts: `SRP19180_MilicaJ_PreSrece` and `SRP19192_SvetozarC_Ucelijama` At the same time those two novels have **a very short** distance between them, almost 0. Can you find out **what is happening here?** (the answer is, of course, quite trivial).
+
+An interesting side note: an anonymous text `SRP18923_NN_BeogradskeTajne` has a very short distance to `SRP18892_PeraTod_SilazakSPrestola`. It is on the level of same-author distances! (Indeed, it belongs to the same author, but the filename does not reflect it)
+
+## Distance in time
+
+```{r message=F,fig.height=8,fig.width=7}
+df_all %>%
+  mutate(year_diff = abs(year_diff)) %>% 
+  # here we filter: 1) novels that do not have exact date; 2) extreme difference
+  filter(!is.na(year_diff),
+         !str_detect(rel, "(SRP19180_MilicaJ_PreSrece)|(SRP19192_SvetozarC_Ucelijama)")) %>% 
+  ggplot(aes(year_diff,distance,group=lang)) + # plotting
+  geom_point(shape=1,alpha=0.1) + # plotting
+  geom_smooth(aes(color=lang),method="lm") + # plotting
+  scale_color_manual(values=pal1) + # plotting 
+  facet_wrap(~lang,ncol = 3) + # plotting
+  labs(x="Difference in years between texts",
+       y="Distance")
+
+
+```
+
+Correlations:
+
+```{r}
+## correlations
+corr <- df_all %>%
+  mutate(year_diff = abs(year_diff)) %>%
+  filter(!is.na(year_diff), distance<2) %>% 
+  group_by(lang) %>% 
+  summarise(correlation=cor(year_diff,distance))
+
+knitr::kable(corr)
+```
+
+## Distance from past to future
+
+```{r message=F,fig.height=6}
+df2 <- df_all %>%
+  filter(!is.na(year_diff),
+         !str_detect(rel, "(SRP19180_MilicaJ_PreSrece)|(SRP19192_SvetozarC_Ucelijama)")) %>% 
+  separate(rel, into=c("source", "target"),sep = "\\.") %>%
+  left_join(meta %>% select(id,year),by=c("source" = "id")) %>%
+  rename(year_source=year) %>%
+  left_join(meta %>% select(id,year),by=c("target" = "id")) %>%
+  rename(year_target=year) %>% 
+  mutate(dec_target=floor(year_target/10)*10,
+         dec_source=floor(year_source/10)*10) 
+
+df2 %>% 
+  ## this is a tricky part, but we just sort the year-to-year relationship by the earliest in the pair to be sure then the relationship is properly arranged (from past to future)
+  group_by(source,target) %>% 
+  mutate(early=paste(sort(c(year_source,year_target)), collapse=" ")) %>%
+  separate(early, c("s","t"),convert = T, sep=" ") %>% 
+  ## then we take only those relationships that include novels from 1840-1850s (our anchor point)
+  filter(s<1860) %>% # some traditions lack 1840s texts
+  ggplot(aes(t,distance,group=lang)) + # plotting
+  geom_point(alpha=0.2) + # plotting
+  geom_smooth(aes(color=lang),method="gam") + # using generalized additive models to allow the trendline to "wiggle"
+  theme_minimal() + # plotting
+  facet_wrap(~lang,ncol = 3) + # plotting
+  scale_color_manual(values=pal1) + # plotting 
+  labs(title="Distances from 1840s & 1850s to the future")
+```
+
+## Heatmaps
+
+```{r,fig.height=6,fig.width=6,message=F}
+df2 %>%
+  group_by(source,target) %>% 
+  mutate(early=paste(sort(c(dec_source,dec_target)), collapse=" ")) %>%
+  separate(early, c("s", "t"),sep=" ") %>% 
+  group_by(lang, s,t) %>% summarise(distance=mean(distance)) %>%
+  group_by(lang) %>% 
+  mutate(scaled_value=(distance-min(distance))/(max(distance)-min(distance))) %>% 
+  ggplot(aes(s, t,fill=scaled_value)) + geom_tile() + facet_wrap(~lang,ncol = 2) + scale_fill_gradient2(low = "#32236C", mid = "#32236C", high = "#01ECB5")
+```
+
