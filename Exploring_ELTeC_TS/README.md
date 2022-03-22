@@ -18,7 +18,7 @@ Maciej Eder, Joanna Byszuk and Artjoms Šeļa (Institute of Polish Language, Pol
 
 ## Training schedule
 ### March 22 2022
-9:00-10:00 - Christof  Schöch: “What is ELTeC all about?”  
+9:00-10:00 - Christof  Schöch: “What is ELTeC all about?”  [slides](https://distantreading.github.io/eltec-slides/eng)
 10:15-13:00 - Maciej  Eder, Joanna Byszuk, Artjoms Šeļa: “Exploring and comparing ELTeC  corpora with stylometry”  
 10:15 – lecture intro  
 11:00 – Stylo intro hands on  
@@ -63,6 +63,8 @@ hands-on
 
 ## Materials
 See the subfolders for specific parts of the Training School.
+[Infotheka](https://infoteka.bg.ac.rs/ojs/index.php/Infoteka/issue/view/21)
+[More COST Action publications](https://www.distant-reading.net/resources/publications/)
 
 ## Location:
 
