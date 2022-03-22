@@ -37,7 +37,9 @@ Let's look at what we will need for this:
 
 3. For `stylo` to work, text should be plain, no header information included. Plain texts already sit in `plain_corpus/` folder, with folder for each language. See `00_preparations.R` for details of grabbing plain texts from .csv
 
+Below is full schematized workflow:
 
+![](img/eltec_pipeline.png)
 
 ## Setting things up
 
