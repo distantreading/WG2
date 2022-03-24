@@ -51,7 +51,8 @@ Maciej Eder, Joanna Byszuk and Artjoms Šeļa (Institute of Polish Language, Pol
 
 ### March 24 2022
 9:00-13:00 Denis Maurel, Eric Laporte, Cvetana Krstev: “Unitex for processing of  literary text: the case of NER automata”  
-9:00-10:30 lecture,  
+9:00-9:15 lecture
+9:15-10:30 getting started
 15min break,  
 10:45-12h lecture  
 12:00-13:00 hands-on  
